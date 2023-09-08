@@ -1,0 +1,487 @@
+2023/07/29 22:47:45 Starting cygwin install, version 2.926
+2023/07/29 22:47:45 User has backup/restore rights
+2023/07/29 22:47:45 User has symlink creation right
+2023/07/29 22:47:45 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2023/07/29 22:47:45 Current Directory: C:\Users\super\Downloads
+2023/07/29 22:47:47 source: network install
+2023/07/29 22:47:47 root: C:\Linux user
+2023/07/29 22:47:47 Changing gid back to original
+2023/07/29 22:47:47 Selected local directory: C:\Users\super\Downloads
+2023/07/29 22:47:48 net: Preconfig
+2023/07/29 22:47:51 site: https://mirrors.163.com/cygwin/
+2023/07/29 22:47:57 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2023/07/29 22:47:57 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2023/07/29 22:47:57 solving: 38 tasks, update: yes, use test packages: no
+2023/07/29 22:49:33 solving: 76 tasks, update: no, use test packages: no
+2023/07/29 22:49:33 Augmented Transaction List:
+2023/07/29 22:49:33    0 install libpopt-common          1.19-1                   
+2023/07/29 22:49:33    1 install terminfo                6.4-3.20230114           
+2023/07/29 22:49:33    2 install tzdata                  2023c-1                  
+2023/07/29 22:49:33    3 install publicsuffix-list-dafsa 20230709-1               
+2023/07/29 22:49:33    4 install libgsasl-common         2.2.0-2                  
+2023/07/29 22:49:33    5 install cygwin                  3.4.7-1                  
+2023/07/29 22:49:33    6 install libiconv2               1.17-1                   
+2023/07/29 22:49:33    7 install libintl8                0.22-1                   
+2023/07/29 22:49:33    8 install libncursesw10           6.4-3.20230114           
+2023/07/29 22:49:33    9 install libreadline7            8.2-2                    
+2023/07/29 22:49:33   10 install bash                    5.2.15-3                 
+2023/07/29 22:49:33   11 install libzstd1                1.5.5-1                  
+2023/07/29 22:49:33   12 install crypto-policies         20190218-1               
+2023/07/29 22:49:33   13 install base-cygwin             3.8-2                    
+2023/07/29 22:49:33   14 install zlib0                   1.2.13-1                 
+2023/07/29 22:49:33   15 install libidn12                1.41-1                   
+2023/07/29 22:49:33   16 install libkrb5support0         1.15.2-2                 
+2023/07/29 22:49:33   17 install libcrypt2               4.4.20-1                 
+2023/07/29 22:49:33   18 install libbrotlicommon1        1.0.9-3                  
+2023/07/29 22:49:33   19 install libnghttp2_14           1.55.1-1                 
+2023/07/29 22:49:33   20 install libntlm0                1.4-1                    
+2023/07/29 22:49:33   21 install libusb0                 1.2.6.0-2                
+2023/07/29 22:49:33   22 install libgpg-error0           1.37-1                   
+2023/07/29 22:49:33   23 install libunistring5           1.1-1                    
+2023/07/29 22:49:33   24 install libnettle6              3.4.1-1                  
+2023/07/29 22:49:33   25 install libidn2_0               2.3.4-1                  
+2023/07/29 22:49:33   26 install libcares2               1.14.0-1                 
+2023/07/29 22:49:33   27 install which                   2.20-2                   
+2023/07/29 22:49:33   28 install vim-minimal             8.2.4372-2               
+2023/07/29 22:49:33   29 install tzcode                  2023c-1                  
+2023/07/29 22:49:33   30 install sed                     4.9-1                    
+2023/07/29 22:49:33   31 install run                     1.3.4-2                  
+2023/07/29 22:49:33   32 install ncurses                 6.4-3.20230114           
+2023/07/29 22:49:33   33 install mintty                  3.6.4-1                  
+2023/07/29 22:49:33   34 install login                   1.13-1                   
+2023/07/29 22:49:33   35 install libtasn1_6              4.14-1                   
+2023/07/29 22:49:33   36 install libsmartcols1           2.33.1-2                 
+2023/07/29 22:49:33   37 install libsigsegv2             2.10-2                   
+2023/07/29 22:49:33   38 install libpopt0                1.19-1                   
+2023/07/29 22:49:33   39 install libpipeline1            1.5.6-1                  
+2023/07/29 22:49:33   40 install libpcre2_8_0            10.42-1                  
+2023/07/29 22:49:33   41 install liblzma5                5.4.3-1                  
+2023/07/29 22:49:33   42 install liblz4_1                1.9.4-1                  
+2023/07/29 22:49:33   43 install libgmp10                6.2.1-2                  
+2023/07/29 22:49:33   44 install libgcc1                 11.4.0-1                 
+2023/07/29 22:49:33   45 install libffi6                 3.2.1-2                  
+2023/07/29 22:49:33   46 install libbz2_1                1.0.8-1                  
+2023/07/29 22:49:33   47 install libattr1                2.5.1-1.20.g0981a7bfe487 
+2023/07/29 22:49:33   48 install libargp                 20230708-2               
+2023/07/29 22:49:33   49 install ipc-utils               1.1-1                    
+2023/07/29 22:49:33   50 install hostname                3.13-1                   
+2023/07/29 22:49:33   51 install gzip                    1.12-1                   
+2023/07/29 22:49:33   52 install editrights              1.04-1                   
+2023/07/29 22:49:33   53 install diffutils               3.10-1                   
+2023/07/29 22:49:33   54 install dash                    0.5.12-2                 
+2023/07/29 22:49:33   55 install alternatives            1.3.30c-10               
+2023/07/29 22:49:33   56 install libk5crypto3            1.15.2-2                 
+2023/07/29 22:49:33   57 install libbrotlidec1           1.0.9-3                  
+2023/07/29 22:49:33   58 install libgcrypt20             1.10.2-1                 
+2023/07/29 22:49:33   59 install libassuan0              2.5.5-1                  
+2023/07/29 22:49:33   60 install libpsl5                 0.21.2-1                 
+2023/07/29 22:49:33   61 install cygutils                1.4.17-1                 
+2023/07/29 22:49:33   62 install less                    608-1                    
+2023/07/29 22:49:33   63 install grep                    3.11-1                   
+2023/07/29 22:49:33   64 install libxml2                 2.10.4-2                 
+2023/07/29 22:49:33   65 install xz                      5.4.3-1                  
+2023/07/29 22:49:33   66 install libhogweed4             3.4.1-1                  
+2023/07/29 22:49:33   67 install libcom_err2             1.44.5-1                 
+2023/07/29 22:49:33   68 install libunistring2           0.9.10-1                 
+2023/07/29 22:49:33   69 install libuuid1                2.33.1-2                 
+2023/07/29 22:49:33   70 install libstdc++6              11.4.0-1                 
+2023/07/29 22:49:33   71 install libmpfr6                4.2.0p12-1               
+2023/07/29 22:49:33   72 install libgdbm6                1.18.1-1                 
+2023/07/29 22:49:33   73 install libp11-kit0             0.23.20-1                
+2023/07/29 22:49:33   74 install file                    5.44-1                   
+2023/07/29 22:49:33   75 install bzip2                   1.0.8-1                  
+2023/07/29 22:49:33   76 install coreutils               9.0-1                    
+2023/07/29 22:49:33   77 install getent                  2.18.90-5                
+2023/07/29 22:49:33   78 install rebase                  4.6.3-1                  
+2023/07/29 22:49:33   79 install info                    7.0.3-3                  
+2023/07/29 22:49:33   80 install _autorebase             001091-1                 
+2023/07/29 22:49:33   81 install libmetalink3            0.1.3-1                  
+2023/07/29 22:49:33   82 install libkrb5_3               1.15.2-2                 
+2023/07/29 22:49:33   83 install libblkid1               2.33.1-2                 
+2023/07/29 22:49:33   84 install libdb5.3                5.3.28-2                 
+2023/07/29 22:49:33   85 install zstd                    1.5.5-1                  
+2023/07/29 22:49:33   86 install libuchardet0            0.0.8-1                  
+2023/07/29 22:49:33   87 install gawk                    5.2.2-1                  
+2023/07/29 22:49:33   88 install p11-kit-trust           0.23.20-1                
+2023/07/29 22:49:33   89 install p11-kit                 0.23.20-1                
+2023/07/29 22:49:33   90 install findutils               4.9.0-1                  
+2023/07/29 22:49:33   91 install libgssapi_krb5_2        1.15.2-2                 
+2023/07/29 22:49:33   92 install libfdisk1               2.33.1-2                 
+2023/07/29 22:49:33   93 install tar                     1.35-1                   
+2023/07/29 22:49:33   94 install groff                   1.23.0-1                 
+2023/07/29 22:49:33   95 install ca-certificates         2023.2.60-1              
+2023/07/29 22:49:33   96 install base-files              4.3-3                    
+2023/07/29 22:49:33   97 install libgsasl18              2.2.0-2                  
+2023/07/29 22:49:33   98 install util-linux              2.33.1-2                 
+2023/07/29 22:49:33   99 install libgnutls30             3.6.9-1                  
+2023/07/29 22:49:33  100 install libssl1.1               1.1.1u-1                 
+2023/07/29 22:49:33  101 install man-db                  2.11.2-1                 
+2023/07/29 22:49:33  102 install libssh2_1               1.11.0-1                 
+2023/07/29 22:49:33  103 install libopenldap2_4_2        2.6.5-1                  
+2023/07/29 22:49:33  104 install libsasl2_3              2.1.27-1                 
+2023/07/29 22:49:33  105 install libopenldap2            2.6.5-1                  
+2023/07/29 22:49:33  106 install openssl                 1.1.1u-1                 
+2023/07/29 22:49:33  107 install libcurl4                8.2.0-1                  
+2023/07/29 22:49:33  108 install gnupg                   1.4.23-1                 
+2023/07/29 22:49:33  109 install libgpgme11              1.9.0-1                  
+2023/07/29 22:49:33  110 install wget                    1.21.2-1                 
+2023/07/29 22:49:33  111 install libssl3                 3.0.9-0.1                
+2023/07/29 22:49:36 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2023/07/29 22:49:36 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.4-3.20230114.tar.xz
+2023/07/29 22:49:38 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2023c-1.tar.xz
+2023/07/29 22:49:38 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20230709-1.tar.xz
+2023/07/29 22:49:39 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gsasl/libgsasl-common/libgsasl-common-2.2.0-2.tar.xz
+2023/07/29 22:49:45 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.7-1.tar.xz
+2023/07/29 22:49:47 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2023/07/29 22:49:49 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22-1.tar.xz
+2023/07/29 22:49:50 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.4-3.20230114.tar.xz
+2023/07/29 22:49:50 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2023/07/29 22:49:53 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.15-3.tar.xz
+2023/07/29 22:49:53 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.5-1.tar.zst
+2023/07/29 22:49:53 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2023/07/29 22:49:54 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2023/07/29 22:49:54 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.13-1.tar.zst
+2023/07/29 22:49:55 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libidn/libidn12/libidn12-1.41-1.tar.xz
+2023/07/29 22:49:55 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2023/07/29 22:49:55 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2023/07/29 22:49:55 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlicommon1/libbrotlicommon1-1.0.9-3.tar.xz
+2023/07/29 22:49:56 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.55.1-1.tar.xz
+2023/07/29 22:49:56 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libntlm/libntlm0/libntlm0-1.4-1.tar.xz
+2023/07/29 22:49:56 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libusb-win32/libusb0/libusb0-1.2.6.0-2.tar.xz
+2023/07/29 22:49:57 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libgpg-error/libgpg-error0/libgpg-error0-1.37-1.tar.xz
+2023/07/29 22:49:57 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libunistring/libunistring5/libunistring5-1.1-1.tar.xz
+2023/07/29 22:49:57 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/nettle/libnettle6/libnettle6-3.4.1-1.tar.xz
+2023/07/29 22:49:58 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.3.4-1.tar.xz
+2023/07/29 22:49:58 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/c-ares/libcares2/libcares2-1.14.0-1.tar.xz
+2023/07/29 22:49:58 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2023/07/29 22:49:59 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-2.tar.xz
+2023/07/29 22:49:59 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2023c-1.tar.xz
+2023/07/29 22:49:59 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2023/07/29 22:50:00 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2023/07/29 22:50:00 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.4-3.20230114.tar.xz
+2023/07/29 22:50:00 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.4-1.tar.xz
+2023/07/29 22:50:01 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2023/07/29 22:50:01 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2023/07/29 22:50:01 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2023/07/29 22:50:01 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2023/07/29 22:50:02 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2023/07/29 22:50:02 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2023/07/29 22:50:02 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.42-1.tar.zst
+2023/07/29 22:50:03 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.3-1.tar.zst
+2023/07/29 22:50:03 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2023/07/29 22:50:03 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst
+2023/07/29 22:50:03 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-11.4.0-1.tar.zst
+2023/07/29 22:50:04 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2023/07/29 22:50:04 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2023/07/29 22:50:04 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+2023/07/29 22:50:05 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz
+2023/07/29 22:50:05 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2023/07/29 22:50:05 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2023/07/29 22:50:05 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz
+2023/07/29 22:50:06 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2023/07/29 22:50:06 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz
+2023/07/29 22:50:06 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-2.tar.xz
+2023/07/29 22:50:06 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2023/07/29 22:50:07 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2023/07/29 22:50:07 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlidec1/libbrotlidec1-1.0.9-3.tar.xz
+2023/07/29 22:50:07 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libgcrypt/libgcrypt20/libgcrypt20-1.10.2-1.tar.xz
+2023/07/29 22:50:08 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libassuan/libassuan0/libassuan0-2.5.5-1.tar.xz
+2023/07/29 22:50:08 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.21.2-1.tar.xz
+2023/07/29 22:50:08 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2023/07/29 22:50:08 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/less/less-608-1.tar.xz
+2023/07/29 22:50:09 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/grep/grep-3.11-1.tar.xz
+2023/07/29 22:50:09 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxml2/libxml2-2.10.4-2.tar.xz
+2023/07/29 22:50:11 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.3-1.tar.zst
+2023/07/29 22:50:12 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/nettle/libhogweed4/libhogweed4-3.4.1-1.tar.xz
+2023/07/29 22:50:12 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2023/07/29 22:50:13 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.10-1.tar.xz
+2023/07/29 22:50:13 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2023/07/29 22:50:13 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.4.0-1.tar.zst
+2023/07/29 22:50:14 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.0p12-1.tar.zst
+2023/07/29 22:50:14 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2023/07/29 22:50:14 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2023/07/29 22:50:15 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/file/file-5.44-1.tar.xz
+2023/07/29 22:50:15 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2023/07/29 22:50:17 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2023/07/29 22:50:17 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2023/07/29 22:50:17 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.3-1.tar.xz
+2023/07/29 22:50:18 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.0.3-3.tar.xz
+2023/07/29 22:50:18 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2023/07/29 22:50:19 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libmetalink/libmetalink3/libmetalink3-0.1.3-1.tar.xz
+2023/07/29 22:50:19 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2023/07/29 22:50:20 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2023/07/29 22:50:20 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2023/07/29 22:50:21 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.5-1.tar.zst
+2023/07/29 22:50:21 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+2023/07/29 22:50:22 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.2.2-1.tar.xz
+2023/07/29 22:50:22 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2023/07/29 22:50:22 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2023/07/29 22:50:23 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz
+2023/07/29 22:50:23 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2023/07/29 22:50:24 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2023/07/29 22:50:26 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-1.tar.zst
+2023/07/29 22:50:37 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst
+2023/07/29 22:50:38 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60-1.tar.zst
+2023/07/29 22:50:38 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2023/07/29 22:50:38 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gsasl/libgsasl18/libgsasl18-2.2.0-2.tar.xz
+2023/07/29 22:50:39 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2023/07/29 22:50:41 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gnutls/libgnutls30/libgnutls30-3.6.9-1.tar.xz
+2023/07/29 22:50:41 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1u-1.tar.zst
+2023/07/29 22:50:43 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.11.2-1.tar.zst
+2023/07/29 22:50:50 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.11.0-1.tar.xz
+2023/07/29 22:50:50 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.5-1.tar.zst
+2023/07/29 22:50:52 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.27-1.tar.xz
+2023/07/29 22:50:52 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.5-1.tar.zst
+2023/07/29 22:50:55 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1u-1.tar.zst
+2023/07/29 22:50:55 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.0-1.tar.xz
+2023/07/29 22:50:56 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gnupg/gnupg-1.4.23-1.tar.xz
+2023/07/29 22:50:56 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gpgme/libgpgme11/libgpgme11-1.9.0-1.tar.xz
+2023/07/29 22:51:02 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.2-1.tar.xz
+2023/07/29 22:51:06 Downloaded C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.9-0.1.tar.zst
+2023/07/29 22:51:06 Registry value set: HKEY_CURRENT_USER\Software\Cygwin\setup\rootdir = "C:\Linux"
+2023/07/29 22:51:06 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.19-1.tar.xz
+2023/07/29 22:51:06 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.4-3.20230114.tar.xz
+2023/07/29 22:51:07 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2023c-1.tar.xz
+2023/07/29 22:51:10 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/publicsuffix-list/publicsuffix-list-dafsa/publicsuffix-list-dafsa-20230709-1.tar.xz
+2023/07/29 22:51:10 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gsasl/libgsasl-common/libgsasl-common-2.2.0-2.tar.xz
+2023/07/29 22:51:10 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.7-1.tar.xz
+2023/07/29 22:51:10 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2023/07/29 22:51:10 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.22-1.tar.xz
+2023/07/29 22:51:10 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.4-3.20230114.tar.xz
+2023/07/29 22:51:10 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2023/07/29 22:51:10 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bash/bash-5.2.15-3.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.5-1.tar.zst
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-2.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.13-1.tar.zst
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libidn/libidn12/libidn12-1.41-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlicommon1/libbrotlicommon1-1.0.9-3.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/nghttp2/libnghttp2_14/libnghttp2_14-1.55.1-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libntlm/libntlm0/libntlm0-1.4-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libusb-win32/libusb0/libusb0-1.2.6.0-2.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libgpg-error/libgpg-error0/libgpg-error0-1.37-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libunistring/libunistring5/libunistring5-1.1-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/nettle/libnettle6/libnettle6-3.4.1-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.3.4-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/c-ares/libcares2/libcares2-1.14.0-1.tar.xz
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2023/07/29 22:51:11 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-2.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2023c-1.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.4-3.20230114.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.4-1.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.19-1.tar.xz
+2023/07/29 22:51:12 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.42-1.tar.zst
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.3-1.tar.zst
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-11.4.0-1.tar.zst
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.5.1-1.20.g0981a7bfe487.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libargp/libargp-20230708-2.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.1-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.04-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.10-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.12-2.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/brotli/libbrotlidec1/libbrotlidec1-1.0.9-3.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libgcrypt/libgcrypt20/libgcrypt20-1.10.2-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libassuan/libassuan0/libassuan0-2.5.5-1.tar.xz
+2023/07/29 22:51:13 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libpsl/libpsl5/libpsl5-0.21.2-1.tar.xz
+2023/07/29 22:51:14 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2023/07/29 22:51:14 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/less/less-608-1.tar.xz
+2023/07/29 22:51:14 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/grep/grep-3.11-1.tar.xz
+2023/07/29 22:51:14 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libxml2/libxml2-2.10.4-2.tar.xz
+2023/07/29 22:51:14 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.3-1.tar.zst
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/nettle/libhogweed4/libhogweed4-3.4.1-1.tar.xz
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.10-1.tar.xz
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.4.0-1.tar.zst
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.0p12-1.tar.zst
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/file/file-5.44-1.tar.xz
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2023/07/29 22:51:15 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2023/07/29 22:51:16 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-5.tar.xz
+2023/07/29 22:51:16 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.3-1.tar.xz
+2023/07/29 22:51:16 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/texinfo/info/info-7.0.3-3.tar.xz
+2023/07/29 22:51:16 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2023/07/29 22:51:16 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libmetalink/libmetalink3/libmetalink3-0.1.3-1.tar.xz
+2023/07/29 22:51:16 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/db/libdb5.3/libdb5.3-5.3.28-2.tar.xz
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.5-1.tar.zst
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/uchardet/libuchardet0/libuchardet0-0.0.8-1.tar.zst
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.2.2-1.tar.xz
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2023/07/29 22:51:17 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2023/07/29 22:51:18 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/tar/tar-1.35-1.tar.zst
+2023/07/29 22:51:18 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/groff/groff-1.23.0-1.tar.zst
+2023/07/29 22:51:19 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60-1.tar.zst
+2023/07/29 22:51:19 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2023/07/29 22:51:19 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gsasl/libgsasl18/libgsasl18-2.2.0-2.tar.xz
+2023/07/29 22:51:19 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2023/07/29 22:51:20 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gnutls/libgnutls30/libgnutls30-3.6.9-1.tar.xz
+2023/07/29 22:51:20 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1u-1.tar.zst
+2023/07/29 22:51:20 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.11.2-1.tar.zst
+2023/07/29 22:51:21 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/libssh2/libssh2_1/libssh2_1-1.11.0-1.tar.xz
+2023/07/29 22:51:21 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.5-1.tar.zst
+2023/07/29 22:51:21 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cyrus-sasl/libsasl2_3/libsasl2_3-2.1.27-1.tar.xz
+2023/07/29 22:51:21 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.5-1.tar.zst
+2023/07/29 22:51:21 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1u-1.tar.zst
+2023/07/29 22:51:21 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.0-1.tar.xz
+2023/07/29 22:51:21 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gnupg/gnupg-1.4.23-1.tar.xz
+2023/07/29 22:51:22 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gpgme/libgpgme11/libgpgme11-1.9.0-1.tar.xz
+2023/07/29 22:51:22 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.2-1.tar.xz
+2023/07/29 22:51:22 Extracting from file://C:\Users\super\Downloads/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.9-0.1.tar.zst
+2023/07/29 22:51:22 running: C:\Linux\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/07/29 22:51:23 running: C:\Linux\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/07/29 22:51:24 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2023/07/29 22:51:25 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2023/07/29 22:51:25 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2023/07/29 22:51:25 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2023/07/29 22:51:25 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/p11-kit.sh"
+2023/07/29 22:51:26 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2023/07/29 22:51:28 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/crypto-policies.sh"
+2023/07/29 22:51:29 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2023/07/29 22:51:30 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/libsasl2_3.sh"
+2023/07/29 22:51:30 can't run /etc/postinstall/openssl.sh: No such file
+2023/07/29 22:51:30 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
+2023/07/29 22:51:30 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2023/07/29 22:51:30 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2023/07/29 22:51:30 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/wget.sh"
+2023/07/29 22:51:30 running: C:\Linux\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/07/29 22:52:21 note: Installation Complete
+2023/07/29 22:52:21 Ending cygwin install
+2023/09/05 20:48:26 Starting cygwin install, version 2.926
+2023/09/05 20:48:26 User has backup/restore rights
+2023/09/05 20:48:26 User has symlink creation right
+2023/09/05 20:48:26 Current Directory: C:\Users\super\Downloads
+2023/09/05 20:48:29 source: network install
+2023/09/05 20:48:34 source: network install
+2023/09/05 20:48:39 root: C:\Linux system
+2023/09/05 20:48:39 Changing gid to Administrators
+2023/09/05 20:48:42 root: C:\Linux system
+2023/09/05 20:48:42 Changing gid to Administrators
+2023/09/05 20:48:59 Selected local directory: H:\Linux
+2023/09/05 20:49:00 net: Preconfig
+2023/09/05 20:49:02 site: https://mirrors.163.com/cygwin/
+2023/09/05 20:49:10 solving: 0 tasks, update: yes, use test packages: no
+2023/09/05 20:49:26 solving: 17 tasks, update: no, use test packages: no
+2023/09/05 20:49:26 Augmented Transaction List:
+2023/09/05 20:49:26    0 install ca-certificates  2023.2.60_v7.0.306-1 
+2023/09/05 20:49:26    1   erase ca-certificates  2023.2.60-1          
+2023/09/05 20:49:26    2 install cygwin           3.4.8-1              
+2023/09/05 20:49:26    3   erase cygwin           3.4.7-1              
+2023/09/05 20:49:26    4 install zlib0            1.3-1                
+2023/09/05 20:49:26    5   erase zlib0            1.2.13-1             
+2023/09/05 20:49:26    6 install wget             1.21.4-1             
+2023/09/05 20:49:26    7   erase wget             1.21.2-1             
+2023/09/05 20:49:26    8 install rebase           4.6.6-1              
+2023/09/05 20:49:26    9   erase rebase           4.6.3-1              
+2023/09/05 20:49:26   10 install mintty           3.6.5-1              
+2023/09/05 20:49:26   11   erase mintty           3.6.4-1              
+2023/09/05 20:49:26   12 install libssl1.1        1.1.1v-1             
+2023/09/05 20:49:26   13   erase libssl1.1        1.1.1u-1             
+2023/09/05 20:49:26   14 install liblzma5         5.4.4-1              
+2023/09/05 20:49:26   15   erase liblzma5         5.4.3-1              
+2023/09/05 20:49:26   16 install libgmp10         6.3.0-1              
+2023/09/05 20:49:26   17   erase libgmp10         6.2.1-2              
+2023/09/05 20:49:26   18 install gzip             1.13-1               
+2023/09/05 20:49:26   19   erase gzip             1.12-1               
+2023/09/05 20:49:26   20 install openssl          1.1.1v-1             
+2023/09/05 20:49:26   21   erase openssl          1.1.1u-1             
+2023/09/05 20:49:26   22 install libopenldap2     2.6.6-1              
+2023/09/05 20:49:26   23   erase libopenldap2     2.6.5-1              
+2023/09/05 20:49:26   24 install xz               5.4.4-1              
+2023/09/05 20:49:26   25   erase xz               5.4.3-1              
+2023/09/05 20:49:26   26 install libmpfr6         4.2.1-1              
+2023/09/05 20:49:26   27   erase libmpfr6         4.2.0p12-1           
+2023/09/05 20:49:26   28 install libopenldap2_4_2 2.6.6-1              
+2023/09/05 20:49:26   29   erase libopenldap2_4_2 2.6.5-1              
+2023/09/05 20:49:26   30 install libcurl4         8.2.1-1              
+2023/09/05 20:49:26   31   erase libcurl4         8.2.0-1              
+2023/09/05 20:49:26   32 install libssl3          3.0.10-0.1           
+2023/09/05 20:49:26   33   erase libssl3          3.0.9-0.1            
+2023/09/05 20:49:29 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60_v7.0.306-1.tar.zst
+2023/09/05 20:49:33 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.8-1.tar.xz
+2023/09/05 20:49:33 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3-1.tar.zst
+2023/09/05 20:49:35 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.4-1.tar.xz
+2023/09/05 20:49:36 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+2023/09/05 20:49:37 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.5-1.tar.xz
+2023/09/05 20:49:37 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1v-1.tar.zst
+2023/09/05 20:49:38 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.4-1.tar.zst
+2023/09/05 20:49:39 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+2023/09/05 20:49:39 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+2023/09/05 20:49:41 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1v-1.tar.zst
+2023/09/05 20:49:42 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.6-1.tar.zst
+2023/09/05 20:49:43 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.4-1.tar.zst
+2023/09/05 20:49:43 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+2023/09/05 20:49:43 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.6-1.tar.zst
+2023/09/05 20:49:44 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.1-1.tar.xz
+2023/09/05 20:49:47 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.10-0.1.tar.zst
+2023/09/05 20:49:47 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\Linux"
+2023/09/05 20:49:47 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/preremove/ca-certificates.sh"
+2023/09/05 20:49:47 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/preremove/wget.sh"
+2023/09/05 20:49:47 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/preremove/openssl.sh"
+2023/09/05 20:49:47 Uninstalling ca-certificates
+2023/09/05 20:49:47 Uninstalling cygwin
+2023/09/05 20:49:47 Uninstalling zlib0
+2023/09/05 20:49:47 Uninstalling wget
+2023/09/05 20:49:47 Uninstalling rebase
+2023/09/05 20:49:47 Uninstalling mintty
+2023/09/05 20:49:47 Uninstalling libssl1.1
+2023/09/05 20:49:47 Uninstalling liblzma5
+2023/09/05 20:49:47 Uninstalling libgmp10
+2023/09/05 20:49:47 Uninstalling gzip
+2023/09/05 20:49:47 Uninstalling openssl
+2023/09/05 20:49:47 Uninstalling libopenldap2
+2023/09/05 20:49:47 Uninstalling xz
+2023/09/05 20:49:47 Uninstalling libmpfr6
+2023/09/05 20:49:47 Uninstalling libopenldap2_4_2
+2023/09/05 20:49:47 Uninstalling libcurl4
+2023/09/05 20:49:47 Uninstalling libssl3
+2023/09/05 20:49:47 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60_v7.0.306-1.tar.zst
+2023/09/05 20:49:47 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.8-1.tar.xz
+2023/09/05 20:49:48 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3-1.tar.zst
+2023/09/05 20:49:48 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.4-1.tar.xz
+2023/09/05 20:49:48 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+2023/09/05 20:49:48 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.5-1.tar.xz
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1v-1.tar.zst
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.4-1.tar.zst
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1v-1.tar.zst
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.6-1.tar.zst
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.4-1.tar.zst
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.6-1.tar.zst
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.1-1.tar.xz
+2023/09/05 20:49:50 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.10-0.1.tar.zst
+2023/09/05 20:49:50 running: C:\Linux\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2023/09/05 20:49:51 running: C:\Linux\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2023/09/05 20:49:52 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2023/09/05 20:49:54 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2023/09/05 20:49:54 can't run /etc/postinstall/openssl.sh: No such file
+2023/09/05 20:49:54 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2023/09/05 20:49:55 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/wget.sh"
+2023/09/05 20:49:55 running: C:\Linux\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2023/09/05 20:50:02 note: Installation Complete
+2023/09/05 20:50:02 Ending cygwin install

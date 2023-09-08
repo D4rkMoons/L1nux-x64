@@ -1,0 +1,2396 @@
+2023/09/05 20:48:26 Starting cygwin install, version 2.926
+2023/09/05 20:48:26 User has backup/restore rights
+2023/09/05 20:48:26 User has symlink creation right
+2023/09/05 20:48:26 Current Directory: C:\Users\super\Downloads
+Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2023/09/05 20:48:29 source: network install
+2023/09/05 20:48:34 source: network install
+2023/09/05 20:48:39 root: C:\Linux system
+2023/09/05 20:48:39 Changing gid to Administrators
+2023/09/05 20:48:42 root: C:\Linux system
+2023/09/05 20:48:42 Changing gid to Administrators
+2023/09/05 20:48:59 Selected local directory: H:\Linux
+2023/09/05 20:49:00 net: Preconfig
+Loaded cached mirror list
+User-Agent: default is "Cygwin-Setup/2.926 (Windows NT 10.0.19045;Win64;0409;SymLinkPriv)"
+Fetched URL: https://cygwin.com/mirrors.lst
+2023/09/05 20:49:02 site: https://mirrors.163.com/cygwin/
+Fetched URL: https://mirrors.163.com/cygwin/x86_64/setup.zst.sig
+Fetched URL: https://mirrors.163.com/cygwin/x86_64/setup.zst
+signature: sig_type 0, pk_alg 1, hash_alg 8
+signature: tried key cygwin, returned 0x00000000 Success
+.ini setup_version is 2.926, our setup_version is 2.926
+INSTALLED.DB version 3
+2023/09/05 20:49:10 solving: 0 tasks, update: yes, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: number of solvables: 57190, memory used: 3127 K
+libsolv: number of ids: 28983 + 57085
+libsolv: string memory used: 113 K array + 496 K data,  rel memory used: 668 K array
+libsolv: string hash memory: 256 K, rel hash memory : 512 K
+libsolv: provide ids: 12272
+libsolv: provide space needed: 43490 + 114170
+libsolv: shrunk whatprovidesdata from 43490 to 43470
+libsolv: shrunk whatprovidesauxdata from 43490 to 31215
+libsolv: whatprovides memory used: 340 K id array, 615 K data
+libsolv: whatprovidesaux memory used: 113 K id array, 121 K data
+libsolv: WARNING: pool_addfileprovides was not called, this may result in slow operation
+libsolv: lazywhatprovidesq size: 0 entries
+libsolv: createwhatprovides took 0 ms
+libsolv: obsoletes data: 1 entries
+libsolv: added 2804 pkg rules for installed solvables
+libsolv: added 45 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 484 of 28442 installable solvables considered for solving
+libsolv: pruned rules from 2850 to 2850
+libsolv:   binary: 1354
+libsolv:   normal: 1495, 16985 literals
+libsolv: pkg rule memory used: 66 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 2849 pkg rules, 2 * 114 update rules, 0 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 72 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 0 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   upgrade   ca-certificates-2023.2.60_v7.0.306-1.any
+libsolv:   (obsoletes
+libsolv:  ca-certificates-2023.2.60-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   cygwin-3.4.8-1.any
+libsolv:   (obsoletes
+libsolv:  cygwin-3.4.7-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   gzip-1.13-1.any
+libsolv:   (obsoletes
+libsolv:  gzip-1.12-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libcurl4-8.2.1-1.any
+libsolv:   (obsoletes
+libsolv:  libcurl4-8.2.0-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libgmp10-6.3.0-1.any
+libsolv:   (obsoletes
+libsolv:  libgmp10-6.2.1-2.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   liblzma5-5.4.4-1.any
+libsolv:   (obsoletes
+libsolv:  liblzma5-5.4.3-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libmpfr6-4.2.1-1.any
+libsolv:   (obsoletes
+libsolv:  libmpfr6-4.2.0p12-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libopenldap2-2.6.6-1.any
+libsolv:   (obsoletes
+libsolv:  libopenldap2-2.6.5-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libopenldap2_4_2-2.6.6-1.any
+libsolv:   (obsoletes
+libsolv:  libopenldap2_4_2-2.6.5-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libssl1.1-1.1.1v-1.any
+libsolv:   (obsoletes
+libsolv:  libssl1.1-1.1.1u-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libssl3-3.0.10-0.1.any
+libsolv:   (obsoletes
+libsolv:  libssl3-3.0.9-0.1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   mintty-3.6.5-1.any
+libsolv:   (obsoletes
+libsolv:  mintty-3.6.4-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   openssl-1.1.1v-1.any
+libsolv:   (obsoletes
+libsolv:  openssl-1.1.1u-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   rebase-4.6.6-1.any
+libsolv:   (obsoletes
+libsolv:  rebase-4.6.3-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   wget-1.21.4-1.any
+libsolv:   (obsoletes
+libsolv:  wget-1.21.2-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   xz-5.4.4-1.any
+libsolv:   (obsoletes
+libsolv:  xz-5.4.3-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   zlib0-1.3-1.any
+libsolv:   (obsoletes
+libsolv:  zlib0-1.2.13-1.any
+libsolv: )
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.19045.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 17
+libsolv: edges: 31, edge space: 39
+libsolv: edge creation took 0 ms
+libsolv: cycles broken: 1
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 59
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 17 upgraded packages:
+libsolv:   - ca-certificates-2023.2.60-1.any -> ca-certificates-2023.2.60_v7.0.306-1.any
+libsolv:   - cygwin-3.4.7-1.any -> cygwin-3.4.8-1.any
+libsolv:   - gzip-1.12-1.any -> gzip-1.13-1.any
+libsolv:   - libcurl4-8.2.0-1.any -> libcurl4-8.2.1-1.any
+libsolv:   - libgmp10-6.2.1-2.any -> libgmp10-6.3.0-1.any
+libsolv:   - liblzma5-5.4.3-1.any -> liblzma5-5.4.4-1.any
+libsolv:   - libmpfr6-4.2.0p12-1.any -> libmpfr6-4.2.1-1.any
+libsolv:   - libopenldap2-2.6.5-1.any -> libopenldap2-2.6.6-1.any
+libsolv:   - libopenldap2_4_2-2.6.5-1.any -> libopenldap2_4_2-2.6.6-1.any
+libsolv:   - libssl1.1-1.1.1u-1.any -> libssl1.1-1.1.1v-1.any
+libsolv:   - libssl3-3.0.9-0.1.any -> libssl3-3.0.10-0.1.any
+libsolv:   - mintty-3.6.4-1.any -> mintty-3.6.5-1.any
+libsolv:   - openssl-1.1.1u-1.any -> openssl-1.1.1v-1.any
+libsolv:   - rebase-4.6.3-1.any -> rebase-4.6.6-1.any
+libsolv:   - wget-1.21.2-1.any -> wget-1.21.4-1.any
+libsolv:   - xz-5.4.3-1.any -> xz-5.4.4-1.any
+libsolv:   - zlib0-1.2.13-1.any -> zlib0-1.3-1.any
+libsolv: 
+2023/09/05 20:49:26 solving: 17 tasks, update: no, use test packages: no
+libsolv: solver started
+libsolv: dosplitprovides=0, noupdateprovide=0, noinfarchcheck=0
+libsolv: allowuninstall=0, allowdowngrade=0, allownamechange=1, allowarchchange=0, allowvendorchange=1
+libsolv: dupallowdowngrade=1, dupallownamechange=1, dupallowarchchange=1, dupallowvendorchange=1
+libsolv: promoteepoch=0, forbidselfconflicts=0
+libsolv: obsoleteusesprovides=0, implicitobsoleteusesprovides=0, obsoleteusescolors=0, implicitobsoleteusescolors=0
+libsolv: dontinstallrecommended=0, addalreadyrecommended=0 onlynamespacerecommended=0
+libsolv: obsoletes data: 1 entries
+libsolv: added 0 pkg rules for installed solvables
+libsolv: added 0 pkg rules for updaters of installed solvables
+libsolv: added 0 pkg rules for packages involved in a job
+libsolv: added 0 pkg rules because of weak dependencies
+libsolv: 484 of 28442 installable solvables considered for solving
+libsolv: pkg rule memory used: 66 K
+libsolv: pkg rule creation took 0 ms
+libsolv: choice rule creation took 0 ms
+libsolv: 2849 pkg rules, 2 * 114 update rules, 17 job rules, 0 infarch rules, 0 dup rules, 0 choice rules, 0 best rules, 0 yumobs rules
+libsolv: 0 black rules, 0 recommends rules, 0 repo priority rules
+libsolv: overall rule memory used: 72 K
+libsolv: solving...
+libsolv: resolving job rules
+libsolv: resolving installed packages
+libsolv: deciding orphaned packages
+libsolv: solver statistics: 0 learned rules, 0 unsolvable, 0 minimization steps
+libsolv: done solving.
+libsolv: solver took 0 ms
+libsolv: final solver statistics: 0 problems, 0 learned rules, 0 unsolvable
+libsolv: solver_solve took 0 ms
+libsolv: 
+libsolv: transaction:
+libsolv:   upgrade   ca-certificates-2023.2.60_v7.0.306-1.any
+libsolv:   (obsoletes
+libsolv:  ca-certificates-2023.2.60-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   cygwin-3.4.8-1.any
+libsolv:   (obsoletes
+libsolv:  cygwin-3.4.7-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   gzip-1.13-1.any
+libsolv:   (obsoletes
+libsolv:  gzip-1.12-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libcurl4-8.2.1-1.any
+libsolv:   (obsoletes
+libsolv:  libcurl4-8.2.0-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libgmp10-6.3.0-1.any
+libsolv:   (obsoletes
+libsolv:  libgmp10-6.2.1-2.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   liblzma5-5.4.4-1.any
+libsolv:   (obsoletes
+libsolv:  liblzma5-5.4.3-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libmpfr6-4.2.1-1.any
+libsolv:   (obsoletes
+libsolv:  libmpfr6-4.2.0p12-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libopenldap2-2.6.6-1.any
+libsolv:   (obsoletes
+libsolv:  libopenldap2-2.6.5-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libopenldap2_4_2-2.6.6-1.any
+libsolv:   (obsoletes
+libsolv:  libopenldap2_4_2-2.6.5-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libssl1.1-1.1.1v-1.any
+libsolv:   (obsoletes
+libsolv:  libssl1.1-1.1.1u-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   libssl3-3.0.10-0.1.any
+libsolv:   (obsoletes
+libsolv:  libssl3-3.0.9-0.1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   mintty-3.6.5-1.any
+libsolv:   (obsoletes
+libsolv:  mintty-3.6.4-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   openssl-1.1.1v-1.any
+libsolv:   (obsoletes
+libsolv:  openssl-1.1.1u-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   rebase-4.6.6-1.any
+libsolv:   (obsoletes
+libsolv:  rebase-4.6.3-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   wget-1.21.4-1.any
+libsolv:   (obsoletes
+libsolv:  wget-1.21.2-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   xz-5.4.4-1.any
+libsolv:   (obsoletes
+libsolv:  xz-5.4.3-1.any
+libsolv: )
+libsolv: 
+libsolv:   upgrade   zlib0-1.3-1.any
+libsolv:   (obsoletes
+libsolv:  zlib0-1.2.13-1.any
+libsolv: )
+libsolv: 
+libsolv: 
+libsolv: orphaned packages:
+libsolv:   base-0.0-0.any (kept)
+libsolv:   _windows-10.0.19045.any (kept)
+libsolv: 
+libsolv: ordering transaction
+libsolv: transaction elements: 17
+libsolv: edges: 31, edge space: 39
+libsolv: edge creation took 0 ms
+libsolv: cycles broken: 1
+libsolv: cycle breaking took 0 ms
+libsolv: cycle edge creation took 0 ms
+libsolv: invedge space: 59
+libsolv: creating new transaction took 0 ms
+libsolv: transaction ordering took 0 ms
+libsolv: 17 upgraded packages:
+libsolv:   - ca-certificates-2023.2.60-1.any -> ca-certificates-2023.2.60_v7.0.306-1.any
+libsolv:   - cygwin-3.4.7-1.any -> cygwin-3.4.8-1.any
+libsolv:   - gzip-1.12-1.any -> gzip-1.13-1.any
+libsolv:   - libcurl4-8.2.0-1.any -> libcurl4-8.2.1-1.any
+libsolv:   - libgmp10-6.2.1-2.any -> libgmp10-6.3.0-1.any
+libsolv:   - liblzma5-5.4.3-1.any -> liblzma5-5.4.4-1.any
+libsolv:   - libmpfr6-4.2.0p12-1.any -> libmpfr6-4.2.1-1.any
+libsolv:   - libopenldap2-2.6.5-1.any -> libopenldap2-2.6.6-1.any
+libsolv:   - libopenldap2_4_2-2.6.5-1.any -> libopenldap2_4_2-2.6.6-1.any
+libsolv:   - libssl1.1-1.1.1u-1.any -> libssl1.1-1.1.1v-1.any
+libsolv:   - libssl3-3.0.9-0.1.any -> libssl3-3.0.10-0.1.any
+libsolv:   - mintty-3.6.4-1.any -> mintty-3.6.5-1.any
+libsolv:   - openssl-1.1.1u-1.any -> openssl-1.1.1v-1.any
+libsolv:   - rebase-4.6.3-1.any -> rebase-4.6.6-1.any
+libsolv:   - wget-1.21.2-1.any -> wget-1.21.4-1.any
+libsolv:   - xz-5.4.3-1.any -> xz-5.4.4-1.any
+libsolv:   - zlib0-1.2.13-1.any -> zlib0-1.3-1.any
+libsolv: 
+2023/09/05 20:49:26 Augmented Transaction List:
+2023/09/05 20:49:26    0 install ca-certificates  2023.2.60_v7.0.306-1 
+2023/09/05 20:49:26    1   erase ca-certificates  2023.2.60-1          
+2023/09/05 20:49:26    2 install cygwin           3.4.8-1              
+2023/09/05 20:49:26    3   erase cygwin           3.4.7-1              
+2023/09/05 20:49:26    4 install zlib0            1.3-1                
+2023/09/05 20:49:26    5   erase zlib0            1.2.13-1             
+2023/09/05 20:49:26    6 install wget             1.21.4-1             
+2023/09/05 20:49:26    7   erase wget             1.21.2-1             
+2023/09/05 20:49:26    8 install rebase           4.6.6-1              
+2023/09/05 20:49:26    9   erase rebase           4.6.3-1              
+2023/09/05 20:49:26   10 install mintty           3.6.5-1              
+2023/09/05 20:49:26   11   erase mintty           3.6.4-1              
+2023/09/05 20:49:26   12 install libssl1.1        1.1.1v-1             
+2023/09/05 20:49:26   13   erase libssl1.1        1.1.1u-1             
+2023/09/05 20:49:26   14 install liblzma5         5.4.4-1              
+2023/09/05 20:49:26   15   erase liblzma5         5.4.3-1              
+2023/09/05 20:49:26   16 install libgmp10         6.3.0-1              
+2023/09/05 20:49:26   17   erase libgmp10         6.2.1-2              
+2023/09/05 20:49:26   18 install gzip             1.13-1               
+2023/09/05 20:49:26   19   erase gzip             1.12-1               
+2023/09/05 20:49:26   20 install openssl          1.1.1v-1             
+2023/09/05 20:49:26   21   erase openssl          1.1.1u-1             
+2023/09/05 20:49:26   22 install libopenldap2     2.6.6-1              
+2023/09/05 20:49:26   23   erase libopenldap2     2.6.5-1              
+2023/09/05 20:49:26   24 install xz               5.4.4-1              
+2023/09/05 20:49:26   25   erase xz               5.4.3-1              
+2023/09/05 20:49:26   26 install libmpfr6         4.2.1-1              
+2023/09/05 20:49:26   27   erase libmpfr6         4.2.0p12-1           
+2023/09/05 20:49:26   28 install libopenldap2_4_2 2.6.6-1              
+2023/09/05 20:49:26   29   erase libopenldap2_4_2 2.6.5-1              
+2023/09/05 20:49:26   30 install libcurl4         8.2.1-1              
+2023/09/05 20:49:26   31   erase libcurl4         8.2.0-1              
+2023/09/05 20:49:26   32 install libssl3          3.0.10-0.1           
+2023/09/05 20:49:26   33   erase libssl3          3.0.9-0.1            
+get_url_to_file https://mirrors.163.com/cygwin/noarch/release/ca-certificates/ca-certificates-2023.2.60_v7.0.306-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60_v7.0.306-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60_v7.0.306-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60_v7.0.306-1.tar.zst f2337dd7ce2f02029efecdc1ad03764782a1bc1300feb014cba937474850d1687618ea3d42e6187a4f90f12067f0f38a36b171431016d94bd9d52bd88af287dc
+2023/09/05 20:49:29 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60_v7.0.306-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/cygwin/cygwin-3.4.8-1.tar.xz H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.8-1.tar.xz.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.8-1.tar.xz
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.8-1.tar.xz bd05db054959eb05763fd4a4275e45c3d8f762afd68edf2af62a3e17879ee971624ade43b2363772b06bab5aaec31b1b603c5970caad15102eea6559bba5d4e1
+2023/09/05 20:49:33 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.8-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/zlib/zlib0/zlib0-1.3-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3-1.tar.zst 93e89a80d4753b6fd93d8392f0268e88e195f647599e8bd9a7531bd522d9c2b649bc5ccfc64be6bea35e6c6f723add0ab9a11c1db7cc7fce37f3a70ac3d0139e
+2023/09/05 20:49:33 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/wget/wget-1.21.4-1.tar.xz H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.4-1.tar.xz.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.4-1.tar.xz
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.4-1.tar.xz 6cd8938b9c2758ac400105480fe8e1276a8e828809d249b465c02783b59daa7ffc3968a5e9213ec54ef138157963b7aaa2f10518464decb1795cda651994be34
+2023/09/05 20:49:35 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.4-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/rebase/rebase-4.6.6-1.tar.xz H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz 9f3751c4687b09f3c286cf5c4522a0d976fce2d79ab471ab37560b15f14af84f7d13162b6102c02d0d60784448ff0586e76e9291675af4fa0c9320a3713633da
+2023/09/05 20:49:36 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/mintty/mintty-3.6.5-1.tar.xz H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.5-1.tar.xz.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.5-1.tar.xz
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.5-1.tar.xz 964762cf7a6f07421e9254b86157631ec93507129a5560acfae33c46e83a96703c7beac38ffef597d41764371d7db29365c3a9487b8eb484d2c44b14ddacdb7d
+2023/09/05 20:49:37 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.5-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1v-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1v-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1v-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1v-1.tar.zst 3fd86d16f86b2112b5dd017e140706412de466064f2ae843df1830d69049b5252334bcda843a8f75475ae920b1b0da792135f437208acfe6fe780cc0c03be39a
+2023/09/05 20:49:37 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1v-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/xz/liblzma5/liblzma5-5.4.4-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.4-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.4-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.4-1.tar.zst 05a3403600e1e8c8886c550213d795a49dc34357012ee7cc66cd65d65b6d4acfd1f39a5a5f9869d42729253fd138605fbcb9a06bf8f3c483bd9a3659c7c06f4f
+2023/09/05 20:49:38 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.4-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst 947cd56e1945ddf180622b453f17e6655b4ee3e79fcc91238370a8826b88cd07c31d939f1ed7b87d91344d46fee90af2560105267a9207dcca800cba72459191
+2023/09/05 20:49:39 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/gzip/gzip-1.13-1.tar.xz H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz 36235fd88df8ed257c1b124bce97a7c290dfaae59cb7dcd50f0b1e999e1acb4fd2ad5d14fd10443475bab9af1d96910ac3dc77f682cc90907765b4f63b449b56
+2023/09/05 20:49:39 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openssl/openssl-1.1.1v-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1v-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1v-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1v-1.tar.zst 34f9b1ec0bd2063ed7d703689b6c44843e82e7512ccdfa84861bd8f8b8f145ab94b61659b797d2bd71cbfbacdd314d3a41f9d7e6f7f15939eaecbcd5bf0cf857
+2023/09/05 20:49:41 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1v-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.6-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.6-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.6-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.6-1.tar.zst 4538ebfa8c7bb3f6e91544bdf62614bf6a1e32027875d863df564581086625e8e209f83998b7acad2aed484f8dfd0793b490fc2893e200271f57ba5d763141a2
+2023/09/05 20:49:42 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.6-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/xz/xz-5.4.4-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.4-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.4-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.4-1.tar.zst db64fd590891d27318556bbe32d23192dcaebeac5c18bb6ecd0a4e74a9e45120c94999f36236de52b8dd06fca0ff2fb654f2787783a000d6e8914c30f50d0fdd
+2023/09/05 20:49:43 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.4-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst 3afd3529d2f91cef4680517773f202e9a60902ec04043a0f234d836cc738c30e22211b92c097fd5ae2fa29f8a857e872aa16cdc0c459357944eddff078507835
+2023/09/05 20:49:43 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.6-1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.6-1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.6-1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.6-1.tar.zst 4836d7a69be0d15c23dd8c560488dbf0ea95edaa827c55cbffaf16896405d5b9020616a81942d89c5a5f8b71c35d75199968d51dd5a5200ffbd130a934fd0f56
+2023/09/05 20:49:43 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.6-1.tar.zst
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/curl/libcurl4/libcurl4-8.2.1-1.tar.xz H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.1-1.tar.xz.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.1-1.tar.xz
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.1-1.tar.xz 2aecd16cff338e3ddc2a0d243a02102c80321c4339d36444b7f40b322c01edc8730763194a4f075144d2efd0ad097da9176610b5fb19543ef91db3472f6eb0fa
+2023/09/05 20:49:44 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.1-1.tar.xz
+get_url_to_file https://mirrors.163.com/cygwin/x86_64/release/openssl/libssl3/libssl3-3.0.10-0.1.tar.zst H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.10-0.1.tar.zst.tmp
+Checking SHA512 for file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.10-0.1.tar.zst
+SHA512 verified OK: file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.10-0.1.tar.zst f1f73d18951f7489e0ffa97a03a5101ceb66d726deb0a7a477596ebbab2d0d6390306e6af877b7093fc68b04d0a8965d88d90c7d9090e299c515377aa5378c4c
+2023/09/05 20:49:47 Downloaded H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.10-0.1.tar.zst
+2023/09/05 20:49:47 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\Linux"
+Running preremove script for ca-certificates
+2023/09/05 20:49:47 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/preremove/ca-certificates.sh"
+Running preremove script for cygwin
+Running preremove script for zlib0
+Running preremove script for wget
+2023/09/05 20:49:47 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/preremove/wget.sh"
+Running preremove script for rebase
+Running preremove script for mintty
+Running preremove script for libssl1.1
+Running preremove script for liblzma5
+Running preremove script for libgmp10
+Running preremove script for gzip
+Running preremove script for openssl
+2023/09/05 20:49:47 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/preremove/openssl.sh"
+Running preremove script for libopenldap2
+Running preremove script for xz
+Running preremove script for libmpfr6
+Running preremove script for libopenldap2_4_2
+Running preremove script for libcurl4
+Running preremove script for libssl3
+2023/09/05 20:49:47 Uninstalling ca-certificates
+unlink C:\Linux/etc/defaults/etc/pki/ca-trust/ca-legacy.conf
+unlink C:\Linux/etc/pki/ca-trust/extracted/edk2/cacerts.bin
+unlink C:\Linux/etc/pki/ca-trust/extracted/edk2/README
+unlink C:\Linux/etc/pki/ca-trust/extracted/java/cacerts
+unlink C:\Linux/etc/pki/ca-trust/extracted/java/README
+unlink C:\Linux/etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
+unlink C:\Linux/etc/pki/ca-trust/extracted/openssl/README
+unlink C:\Linux/etc/pki/ca-trust/extracted/pem/email-ca-bundle.pem
+unlink C:\Linux/etc/pki/ca-trust/extracted/pem/objsign-ca-bundle.pem
+unlink C:\Linux/etc/pki/ca-trust/extracted/pem/README
+unlink C:\Linux/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+unlink C:\Linux/etc/pki/ca-trust/extracted/README
+unlink C:\Linux/etc/pki/ca-trust/source/README
+unlink C:\Linux\bin/ca-legacy
+unlink C:\Linux\bin/update-ca-trust
+unlink C:\Linux/usr/share/man/man8/ca-legacy.8.gz
+unlink C:\Linux/usr/share/man/man8/update-ca-trust.8.gz
+unlink C:\Linux/usr/share/pki/ca-trust-legacy/ca-bundle.legacy.default.crt
+unlink C:\Linux/usr/share/pki/ca-trust-legacy/ca-bundle.legacy.disable.crt
+unlink C:\Linux/usr/share/pki/ca-trust-source/ca-bundle.trust.p11-kit
+unlink C:\Linux/usr/share/pki/ca-trust-source/README
+unlink C:\Linux/etc/pki/tls/cert.pem
+unlink C:\Linux/etc/pki/tls/certs/ca-bundle.crt
+unlink C:\Linux/etc/pki/tls/certs/ca-bundle.trust.crt
+unlink C:\Linux/etc/ssl/certs
+unlink C:\Linux/usr/libexec/p11-kit/trust-extract-compat
+unlink C:\Linux\lib/security/cacerts
+rmdir C:\Linux/usr/share/pki/ca-trust-source/blacklist
+rmdir C:\Linux/usr/share/pki/ca-trust-source/anchors
+rmdir C:\Linux/usr/share/pki/ca-trust-source
+rmdir C:\Linux/usr/share/pki/ca-trust-legacy
+rmdir C:\Linux/usr/share/pki
+rmdir C:\Linux\lib/security
+rmdir C:\Linux/etc/ssl
+rmdir C:\Linux/etc/pki/tls/certs
+rmdir C:\Linux/etc/pki/ca-trust/source/blacklist
+rmdir C:\Linux/etc/pki/ca-trust/source/anchors
+rmdir C:\Linux/etc/pki/ca-trust/extracted/openssl
+rmdir C:\Linux/etc/pki/ca-trust/extracted/java
+rmdir C:\Linux/etc/pki/ca-trust/extracted/edk2
+rmdir C:\Linux/etc/defaults/etc/pki/ca-trust
+2023/09/05 20:49:47 Uninstalling cygwin
+unlink C:\Linux/etc/defaults/etc/cygserver.conf
+unlink C:\Linux\bin/chattr.exe
+unlink C:\Linux\bin/cygcheck.exe
+unlink C:\Linux\bin/cygpath.exe
+unlink C:\Linux\bin/cygserver-config
+unlink C:\Linux\bin/cygwin-console-helper.exe
+unlink C:\Linux\bin/cygwin1.dll
+unlink C:\Linux\bin/dumper.exe
+unlink C:\Linux\bin/gencat.exe
+unlink C:\Linux\bin/getconf.exe
+unlink C:\Linux\bin/getfacl.exe
+unlink C:\Linux\bin/gmondump.exe
+unlink C:\Linux\bin/kill.exe
+unlink C:\Linux\bin/ldd.exe
+unlink C:\Linux\bin/ldh.exe
+unlink C:\Linux\bin/locale.exe
+unlink C:\Linux\bin/lsattr.exe
+unlink C:\Linux\bin/minidumper.exe
+unlink C:\Linux\bin/mkgroup.exe
+unlink C:\Linux\bin/mkpasswd.exe
+unlink C:\Linux\bin/mount.exe
+unlink C:\Linux\bin/passwd.exe
+unlink C:\Linux\bin/pldd.exe
+unlink C:\Linux\bin/profiler.exe
+unlink C:\Linux\bin/ps.exe
+unlink C:\Linux\bin/regtool.exe
+unlink C:\Linux\bin/setfacl.exe
+unlink C:\Linux\bin/setmetamode.exe
+unlink C:\Linux\bin/ssp.exe
+unlink C:\Linux\bin/strace.exe
+unlink C:\Linux\bin/tzset.exe
+unlink C:\Linux\bin/umount.exe
+unlink C:\Linux/usr/sbin/cygserver.exe
+unlink C:\Linux/usr/share/cygwin/cygwin.ldif
+unlink C:\Linux/usr/share/doc/Cygwin/COPYING
+unlink C:\Linux/usr/share/doc/Cygwin/cygserver.README
+unlink C:\Linux/usr/share/doc/Cygwin/CYGWIN_LICENSE
+rmdir C:\Linux/usr/share/cygwin
+2023/09/05 20:49:47 Uninstalling zlib0
+unlink C:\Linux\bin/cygz.dll
+2023/09/05 20:49:47 Uninstalling wget
+unlink C:\Linux/etc/defaults/etc/wgetrc
+unlink C:\Linux\bin/wget.exe
+unlink C:\Linux/usr/share/doc/wget/AUTHORS
+unlink C:\Linux/usr/share/doc/wget/ChangeLog
+unlink C:\Linux/usr/share/doc/wget/COPYING
+unlink C:\Linux/usr/share/doc/wget/NEWS
+unlink C:\Linux/usr/share/doc/wget/README
+unlink C:\Linux/usr/share/info/wget.info.gz
+unlink C:\Linux/usr/share/locale/af/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/be/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/be/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/bg/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/bg/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/ca/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/ca/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/cs/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/cs/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/da/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/da/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/de/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/de/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/el/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/el/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/en_GB/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/eo/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/eo/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/es/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/es/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/et/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/et/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/eu/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/eu/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/fi/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/fi/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/fr/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/fr/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/ga/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/ga/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/gl/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/gl/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/he/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/hr/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/hu/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/hu/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/id/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/it/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/it/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/ja/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/ja/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/ko/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/ko/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/lt/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/ms/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/nb/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/nb/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/nl/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/nl/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/pl/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/pl/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/pt/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/pt/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/pt_BR/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/pt_BR/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/ro/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/ro/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/ru/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/ru/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/rw/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/sk/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/sk/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/sl/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/sl/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/sr/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/sr/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/sv/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/sv/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/tr/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/tr/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/uk/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/uk/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/vi/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/vi/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/zh_CN/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/zh_CN/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/locale/zh_TW/LC_MESSAGES/wget-gnulib.mo
+unlink C:\Linux/usr/share/locale/zh_TW/LC_MESSAGES/wget.mo
+unlink C:\Linux/usr/share/man/man1/wget.1.gz
+rmdir C:\Linux/usr/share/doc/wget
+2023/09/05 20:49:47 Uninstalling rebase
+unlink C:\Linux\bin/peflags.exe
+unlink C:\Linux\bin/peflagsall
+unlink C:\Linux\bin/rebase.exe
+unlink C:\Linux\bin/rebaseall
+unlink C:\Linux/usr/share/doc/rebase/COPYING
+unlink C:\Linux/usr/share/doc/rebase/NEWS
+unlink C:\Linux/usr/share/doc/rebase/README
+unlink C:\Linux/usr/share/doc/rebase/Todo
+rmdir C:\Linux/usr/share/doc/rebase
+2023/09/05 20:49:47 Uninstalling mintty
+unlink C:\Linux\bin/mintheme
+unlink C:\Linux\bin/mintty.exe
+unlink C:\Linux/usr/share/applications/mintty.desktop
+unlink C:\Linux/usr/share/doc/mintty/LICENSE
+unlink C:\Linux/usr/share/doc/mintty/LICENSE.bundling
+unlink C:\Linux/usr/share/doc/mintty/LICENSE.GPL
+unlink C:\Linux/usr/share/doc/mintty/LICENSE.Oxygen
+unlink C:\Linux/usr/share/doc/mintty/LICENSE.PuTTY
+unlink C:\Linux/usr/share/doc/mintty/README
+unlink C:\Linux/usr/share/doc/mintty/setup.hint
+unlink C:\Linux/usr/share/icons/hicolor/16x16/apps/mintty.png
+unlink C:\Linux/usr/share/icons/hicolor/24x24/apps/mintty.png
+unlink C:\Linux/usr/share/icons/hicolor/256x256/apps/mintty.png
+unlink C:\Linux/usr/share/icons/hicolor/32x32/apps/mintty.png
+unlink C:\Linux/usr/share/icons/hicolor/48x48/apps/mintty.png
+unlink C:\Linux/usr/share/icons/hicolor/64x64/apps/mintty.png
+unlink C:\Linux/usr/share/man/man1/mintty.1.gz
+unlink C:\Linux/usr/share/mintty/emojis/getemojis
+unlink C:\Linux/usr/share/mintty/emojis/getflags
+unlink C:\Linux/usr/share/mintty/icon/wsl.ico
+unlink C:\Linux/usr/share/mintty/lang/de.po
+unlink C:\Linux/usr/share/mintty/lang/en.po
+unlink C:\Linux/usr/share/mintty/lang/en_US.po
+unlink C:\Linux/usr/share/mintty/lang/es.po
+unlink C:\Linux/usr/share/mintty/lang/fr.po
+unlink C:\Linux/usr/share/mintty/lang/hr.po
+unlink C:\Linux/usr/share/mintty/lang/ja.po
+unlink C:\Linux/usr/share/mintty/lang/messages.pot
+unlink C:\Linux/usr/share/mintty/lang/nb.po
+unlink C:\Linux/usr/share/mintty/lang/pt_BR.po
+unlink C:\Linux/usr/share/mintty/lang/ru.po
+unlink C:\Linux/usr/share/mintty/lang/sv.po
+unlink C:\Linux/usr/share/mintty/lang/zh_CN.po
+unlink C:\Linux/usr/share/mintty/lang/zh_TW.po
+unlink C:\Linux/usr/share/mintty/sounds/ambient-drip-lo.wav
+unlink C:\Linux/usr/share/mintty/sounds/ambient-drop.wav
+unlink C:\Linux/usr/share/mintty/sounds/ambient-glass.wav
+unlink C:\Linux/usr/share/mintty/sounds/ambient-splash.wav
+unlink C:\Linux/usr/share/mintty/sounds/ambient-swoosh.wav
+unlink C:\Linux/usr/share/mintty/sounds/ambient-uncork.wav
+unlink C:\Linux/usr/share/mintty/sounds/BOING.WAV
+unlink C:\Linux/usr/share/mintty/sounds/percussive-bongo-hi.wav
+unlink C:\Linux/usr/share/mintty/sounds/percussive-bongo-lo.wav
+unlink C:\Linux/usr/share/mintty/sounds/percussive-gong.wav
+unlink C:\Linux/usr/share/mintty/sounds/percussive-knock.wav
+unlink C:\Linux/usr/share/mintty/sounds/percussive-synthkick-lo.wav
+unlink C:\Linux/usr/share/mintty/sounds/README.md
+unlink C:\Linux/usr/share/mintty/sounds/resonant-flute.wav
+unlink C:\Linux/usr/share/mintty/sounds/resonant-organ.wav
+unlink C:\Linux/usr/share/mintty/sounds/resonant-reverb.wav
+unlink C:\Linux/usr/share/mintty/sounds/resonant-twang.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-bass.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-gib.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-honk.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-intruder.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-rave.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-select.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-spike.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-sproing.wav
+unlink C:\Linux/usr/share/mintty/sounds/synthetic-square.wav
+unlink C:\Linux/usr/share/mintty/sounds/vocal-boo.wav
+unlink C:\Linux/usr/share/mintty/sounds/vocal-hah.wav
+unlink C:\Linux/usr/share/mintty/sounds/vocal-yip.wav
+unlink C:\Linux/usr/share/mintty/themes/dracula
+unlink C:\Linux/usr/share/mintty/themes/flat-ui
+unlink C:\Linux/usr/share/mintty/themes/gruvbox
+unlink C:\Linux/usr/share/mintty/themes/helmholtz
+unlink C:\Linux/usr/share/mintty/themes/html
+unlink C:\Linux/usr/share/mintty/themes/kohlrausch
+unlink C:\Linux/usr/share/mintty/themes/luminous
+unlink C:\Linux/usr/share/mintty/themes/mintty
+unlink C:\Linux/usr/share/mintty/themes/monokai-dimmed
+unlink C:\Linux/usr/share/mintty/themes/nord
+unlink C:\Linux/usr/share/mintty/themes/rosipov
+unlink C:\Linux/usr/share/mintty/themes/vga
+unlink C:\Linux/usr/share/mintty/themes/windows10
+unlink C:\Linux/usr/share/mintty/themes/xterm
+rmdir C:\Linux/usr/share/mintty/themes
+rmdir C:\Linux/usr/share/mintty/sounds
+rmdir C:\Linux/usr/share/mintty/lang
+rmdir C:\Linux/usr/share/mintty/icon
+rmdir C:\Linux/usr/share/mintty/emojis
+rmdir C:\Linux/usr/share/mintty
+rmdir C:\Linux/usr/share/icons/hicolor/64x64/apps
+rmdir C:\Linux/usr/share/icons/hicolor/64x64
+rmdir C:\Linux/usr/share/icons/hicolor/48x48/apps
+rmdir C:\Linux/usr/share/icons/hicolor/48x48
+rmdir C:\Linux/usr/share/icons/hicolor/32x32/apps
+rmdir C:\Linux/usr/share/icons/hicolor/32x32
+rmdir C:\Linux/usr/share/icons/hicolor/256x256/apps
+rmdir C:\Linux/usr/share/icons/hicolor/256x256
+rmdir C:\Linux/usr/share/icons/hicolor/24x24/apps
+rmdir C:\Linux/usr/share/icons/hicolor/24x24
+rmdir C:\Linux/usr/share/icons/hicolor/16x16/apps
+rmdir C:\Linux/usr/share/icons/hicolor/16x16
+rmdir C:\Linux/usr/share/icons/hicolor
+rmdir C:\Linux/usr/share/icons
+rmdir C:\Linux/usr/share/doc/mintty
+rmdir C:\Linux/usr/share/applications
+2023/09/05 20:49:47 Uninstalling libssl1.1
+unlink C:\Linux/etc/defaults/etc/pki/tls/ct_log_list.cnf
+unlink C:\Linux/etc/defaults/etc/pki/tls/openssl.cnf
+unlink C:\Linux\bin/cygcrypto-1.1.dll
+unlink C:\Linux\bin/cygssl-1.1.dll
+unlink C:\Linux\lib/engines-1.1/capi.dll
+unlink C:\Linux\lib/engines-1.1/padlock.dll
+rmdir C:\Linux\lib/engines-1.1
+rmdir C:\Linux/etc/defaults/etc/pki/tls
+rmdir C:\Linux/etc/defaults/etc/pki
+2023/09/05 20:49:47 Uninstalling liblzma5
+unlink C:\Linux\bin/cyglzma-5.dll
+2023/09/05 20:49:47 Uninstalling libgmp10
+unlink C:\Linux\bin/cyggmp-10.dll
+2023/09/05 20:49:47 Uninstalling gzip
+unlink C:\Linux\bin/gunzip
+unlink C:\Linux\bin/gzexe
+unlink C:\Linux\bin/gzip.exe
+unlink C:\Linux\bin/zcat
+unlink C:\Linux\bin/zcmp
+unlink C:\Linux\bin/zdiff
+unlink C:\Linux\bin/zegrep
+unlink C:\Linux\bin/zfgrep
+unlink C:\Linux\bin/zforce
+unlink C:\Linux\bin/zgrep
+unlink C:\Linux\bin/zless
+unlink C:\Linux\bin/zmore
+unlink C:\Linux\bin/znew
+unlink C:\Linux/usr/share/doc/gzip/AUTHORS
+unlink C:\Linux/usr/share/doc/gzip/ChangeLog
+unlink C:\Linux/usr/share/doc/gzip/COPYING
+unlink C:\Linux/usr/share/doc/gzip/NEWS
+unlink C:\Linux/usr/share/doc/gzip/README
+unlink C:\Linux/usr/share/doc/gzip/THANKS
+unlink C:\Linux/usr/share/doc/gzip/TODO
+unlink C:\Linux/usr/share/info/gzip.info.gz
+unlink C:\Linux/usr/share/man/man1/gunzip.1.gz
+unlink C:\Linux/usr/share/man/man1/gzexe.1.gz
+unlink C:\Linux/usr/share/man/man1/gzip.1.gz
+unlink C:\Linux/usr/share/man/man1/zcat.1.gz
+unlink C:\Linux/usr/share/man/man1/zcmp.1.gz
+unlink C:\Linux/usr/share/man/man1/zdiff.1.gz
+unlink C:\Linux/usr/share/man/man1/zforce.1.gz
+unlink C:\Linux/usr/share/man/man1/zgrep.1.gz
+unlink C:\Linux/usr/share/man/man1/zless.1.gz
+unlink C:\Linux/usr/share/man/man1/zmore.1.gz
+unlink C:\Linux/usr/share/man/man1/znew.1.gz
+rmdir C:\Linux/usr/share/doc/gzip
+2023/09/05 20:49:47 Uninstalling openssl
+unlink C:\Linux\bin/openssl.exe
+unlink C:\Linux\bin/make-dummy-cert
+unlink C:\Linux\bin/renew-dummy-cert
+unlink C:\Linux/usr/share/doc/openssl/AUTHORS
+unlink C:\Linux/usr/share/doc/openssl/CHANGES
+unlink C:\Linux/usr/share/doc/openssl/FAQ
+unlink C:\Linux/usr/share/doc/openssl/INSTALL
+unlink C:\Linux/usr/share/doc/openssl/LICENSE
+unlink C:\Linux/usr/share/doc/openssl/Makefile.certificate
+unlink C:\Linux/usr/share/doc/openssl/NEWS
+unlink C:\Linux/usr/share/doc/openssl/README
+unlink C:\Linux/usr/share/man/man1/asn1parse.1.gz
+unlink C:\Linux/usr/share/man/man1/ca.1.gz
+unlink C:\Linux/usr/share/man/man1/ciphers.1.gz
+unlink C:\Linux/usr/share/man/man1/cms.1.gz
+unlink C:\Linux/usr/share/man/man1/crl.1.gz
+unlink C:\Linux/usr/share/man/man1/crl2pkcs7.1.gz
+unlink C:\Linux/usr/share/man/man1/dgst.1.gz
+unlink C:\Linux/usr/share/man/man1/dhparam.1.gz
+unlink C:\Linux/usr/share/man/man1/dsa.1.gz
+unlink C:\Linux/usr/share/man/man1/dsaparam.1.gz
+unlink C:\Linux/usr/share/man/man1/ec.1.gz
+unlink C:\Linux/usr/share/man/man1/ecparam.1.gz
+unlink C:\Linux/usr/share/man/man1/enc.1.gz
+unlink C:\Linux/usr/share/man/man1/engine.1.gz
+unlink C:\Linux/usr/share/man/man1/errstr.1.gz
+unlink C:\Linux/usr/share/man/man1/gendsa.1.gz
+unlink C:\Linux/usr/share/man/man1/genpkey.1.gz
+unlink C:\Linux/usr/share/man/man1/genrsa.1.gz
+unlink C:\Linux/usr/share/man/man1/list.1.gz
+unlink C:\Linux/usr/share/man/man1/nseq.1.gz
+unlink C:\Linux/usr/share/man/man1/ocsp.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-asn1parse.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-ca.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-ciphers.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-cms.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-crl.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-crl2pkcs7.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-c_rehash.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-dgst.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-dhparam.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-dsa.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-dsaparam.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-ec.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-ecparam.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-enc.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-engine.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-errstr.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-gendsa.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-genpkey.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-genrsa.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-list.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-nseq.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-ocsp.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-passwd.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-pkcs12.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-pkcs7.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-pkcs8.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-pkey.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-pkeyparam.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-pkeyutl.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-prime.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-rand.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-rehash.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-req.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-rsa.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-rsautl.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-sess_id.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-smime.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-speed.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-spkac.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-srp.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-storeutl.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-s_client.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-s_server.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-s_time.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-ts.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-tsget.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-verify.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-version.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl-x509.1.gz
+unlink C:\Linux/usr/share/man/man1/openssl.1.gz
+unlink C:\Linux/usr/share/man/man1/passwd.1.gz
+unlink C:\Linux/usr/share/man/man1/pkcs12.1.gz
+unlink C:\Linux/usr/share/man/man1/pkcs7.1.gz
+unlink C:\Linux/usr/share/man/man1/pkcs8.1.gz
+unlink C:\Linux/usr/share/man/man1/pkey.1.gz
+unlink C:\Linux/usr/share/man/man1/pkeyparam.1.gz
+unlink C:\Linux/usr/share/man/man1/pkeyutl.1.gz
+unlink C:\Linux/usr/share/man/man1/prime.1.gz
+unlink C:\Linux/usr/share/man/man1/rand.1.gz
+unlink C:\Linux/usr/share/man/man1/rehash.1.gz
+unlink C:\Linux/usr/share/man/man1/req.1.gz
+unlink C:\Linux/usr/share/man/man1/rsa.1.gz
+unlink C:\Linux/usr/share/man/man1/rsautl.1.gz
+unlink C:\Linux/usr/share/man/man1/sess_id.1.gz
+unlink C:\Linux/usr/share/man/man1/smime.1.gz
+unlink C:\Linux/usr/share/man/man1/speed.1.gz
+unlink C:\Linux/usr/share/man/man1/spkac.1.gz
+unlink C:\Linux/usr/share/man/man1/srp.1.gz
+unlink C:\Linux/usr/share/man/man1/storeutl.1.gz
+unlink C:\Linux/usr/share/man/man1/s_client.1.gz
+unlink C:\Linux/usr/share/man/man1/s_server.1.gz
+unlink C:\Linux/usr/share/man/man1/s_time.1.gz
+unlink C:\Linux/usr/share/man/man1/ts.1.gz
+unlink C:\Linux/usr/share/man/man1/verify.1.gz
+unlink C:\Linux/usr/share/man/man1/version.1.gz
+unlink C:\Linux/usr/share/man/man1/x509.1.gz
+unlink C:\Linux/usr/share/man/man5/config.5.gz
+unlink C:\Linux/usr/share/man/man5/x509v3_config.5.gz
+unlink C:\Linux/usr/share/man/man7/bio.7.gz
+unlink C:\Linux/usr/share/man/man7/crypto.7.gz
+unlink C:\Linux/usr/share/man/man7/ct.7.gz
+unlink C:\Linux/usr/share/man/man7/des_modes.7.gz
+unlink C:\Linux/usr/share/man/man7/Ed25519.7.gz
+unlink C:\Linux/usr/share/man/man7/Ed448.7.gz
+unlink C:\Linux/usr/share/man/man7/evp.7.gz
+unlink C:\Linux/usr/share/man/man7/ossl_store-file.7.gz
+unlink C:\Linux/usr/share/man/man7/ossl_store.7.gz
+unlink C:\Linux/usr/share/man/man7/passphrase-encoding.7.gz
+unlink C:\Linux/usr/share/man/man7/proxy-certificates.7.gz
+unlink C:\Linux/usr/share/man/man7/RAND.7.gz
+unlink C:\Linux/usr/share/man/man7/RAND_DRBG.7.gz
+unlink C:\Linux/usr/share/man/man7/RSA-PSS.7.gz
+unlink C:\Linux/usr/share/man/man7/scrypt.7.gz
+unlink C:\Linux/usr/share/man/man7/SM2.7.gz
+unlink C:\Linux/usr/share/man/man7/ssl.7.gz
+unlink C:\Linux/usr/share/man/man7/X25519.7.gz
+unlink C:\Linux/usr/share/man/man7/X448.7.gz
+unlink C:\Linux/usr/share/man/man7/x509.7.gz
+rmdir C:\Linux/usr/share/doc/openssl
+rmdir C:\Linux/etc/pki/tls/private
+rmdir C:\Linux/etc/pki/tls/misc
+rmdir C:\Linux/etc/pki/tls
+2023/09/05 20:49:47 Uninstalling libopenldap2
+unlink C:\Linux\bin/cyglber-2.dll
+unlink C:\Linux\bin/cygldap-2.dll
+2023/09/05 20:49:47 Uninstalling xz
+unlink C:\Linux\bin/lzmadec.exe
+unlink C:\Linux\bin/lzmainfo.exe
+unlink C:\Linux\bin/xz.exe
+unlink C:\Linux\bin/xzdec.exe
+unlink C:\Linux\bin/xzdiff
+unlink C:\Linux\bin/xzgrep
+unlink C:\Linux\bin/xzless
+unlink C:\Linux\bin/xzmore
+unlink C:\Linux/usr/share/doc/xz/api/annotated.html
+unlink C:\Linux/usr/share/doc/xz/api/base_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/bcj_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/bc_s.png
+unlink C:\Linux/usr/share/doc/xz/api/bc_sd.png
+unlink C:\Linux/usr/share/doc/xz/api/bdwn.png
+unlink C:\Linux/usr/share/doc/xz/api/block_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/check_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/classes.html
+unlink C:\Linux/usr/share/doc/xz/api/closed.png
+unlink C:\Linux/usr/share/doc/xz/api/container_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/delta_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/dir_b17a1d403082bd69a703ed987cf158fb.html
+unlink C:\Linux/usr/share/doc/xz/api/doc.png
+unlink C:\Linux/usr/share/doc/xz/api/docd.png
+unlink C:\Linux/usr/share/doc/xz/api/doxygen.css
+unlink C:\Linux/usr/share/doc/xz/api/doxygen.svg
+unlink C:\Linux/usr/share/doc/xz/api/files.html
+unlink C:\Linux/usr/share/doc/xz/api/filter_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/folderclosed.png
+unlink C:\Linux/usr/share/doc/xz/api/folderopen.png
+unlink C:\Linux/usr/share/doc/xz/api/functions.html
+unlink C:\Linux/usr/share/doc/xz/api/functions_vars.html
+unlink C:\Linux/usr/share/doc/xz/api/globals.html
+unlink C:\Linux/usr/share/doc/xz/api/globals_defs.html
+unlink C:\Linux/usr/share/doc/xz/api/globals_enum.html
+unlink C:\Linux/usr/share/doc/xz/api/globals_eval.html
+unlink C:\Linux/usr/share/doc/xz/api/globals_func.html
+unlink C:\Linux/usr/share/doc/xz/api/globals_type.html
+unlink C:\Linux/usr/share/doc/xz/api/hardware_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/index.html
+unlink C:\Linux/usr/share/doc/xz/api/index_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/index__hash_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/lzma12_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/lzma_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/nav_f.png
+unlink C:\Linux/usr/share/doc/xz/api/nav_fd.png
+unlink C:\Linux/usr/share/doc/xz/api/nav_g.png
+unlink C:\Linux/usr/share/doc/xz/api/nav_h.png
+unlink C:\Linux/usr/share/doc/xz/api/nav_hd.png
+unlink C:\Linux/usr/share/doc/xz/api/open.png
+unlink C:\Linux/usr/share/doc/xz/api/splitbar.png
+unlink C:\Linux/usr/share/doc/xz/api/splitbard.png
+unlink C:\Linux/usr/share/doc/xz/api/stream__flags_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__allocator.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__block.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__filter.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__index__iter.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__mt.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__options__bcj.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__options__delta.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__options__lzma.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__stream.html
+unlink C:\Linux/usr/share/doc/xz/api/structlzma__stream__flags.html
+unlink C:\Linux/usr/share/doc/xz/api/sync_off.png
+unlink C:\Linux/usr/share/doc/xz/api/sync_on.png
+unlink C:\Linux/usr/share/doc/xz/api/tabs.css
+unlink C:\Linux/usr/share/doc/xz/api/tab_a.png
+unlink C:\Linux/usr/share/doc/xz/api/tab_ad.png
+unlink C:\Linux/usr/share/doc/xz/api/tab_b.png
+unlink C:\Linux/usr/share/doc/xz/api/tab_bd.png
+unlink C:\Linux/usr/share/doc/xz/api/tab_h.png
+unlink C:\Linux/usr/share/doc/xz/api/tab_hd.png
+unlink C:\Linux/usr/share/doc/xz/api/tab_s.png
+unlink C:\Linux/usr/share/doc/xz/api/tab_sd.png
+unlink C:\Linux/usr/share/doc/xz/api/version_8h.html
+unlink C:\Linux/usr/share/doc/xz/api/vli_8h.html
+unlink C:\Linux/usr/share/doc/xz/AUTHORS
+unlink C:\Linux/usr/share/doc/xz/ChangeLog
+unlink C:\Linux/usr/share/doc/xz/COPYING
+unlink C:\Linux/usr/share/doc/xz/COPYING.GPLv2
+unlink C:\Linux/usr/share/doc/xz/COPYING.LGPLv2.1
+unlink C:\Linux/usr/share/doc/xz/examples/00_README.txt
+unlink C:\Linux/usr/share/doc/xz/examples/01_compress_easy.c
+unlink C:\Linux/usr/share/doc/xz/examples/02_decompress.c
+unlink C:\Linux/usr/share/doc/xz/examples/03_compress_custom.c
+unlink C:\Linux/usr/share/doc/xz/examples/04_compress_easy_mt.c
+unlink C:\Linux/usr/share/doc/xz/examples/Makefile
+unlink C:\Linux/usr/share/doc/xz/examples_old/xz_pipe_comp.c
+unlink C:\Linux/usr/share/doc/xz/examples_old/xz_pipe_decomp.c
+unlink C:\Linux/usr/share/doc/xz/faq.txt
+unlink C:\Linux/usr/share/doc/xz/history.txt
+unlink C:\Linux/usr/share/doc/xz/liblzma.def
+unlink C:\Linux/usr/share/doc/xz/lzma-file-format.txt
+unlink C:\Linux/usr/share/doc/xz/NEWS
+unlink C:\Linux/usr/share/doc/xz/README
+unlink C:\Linux/usr/share/doc/xz/THANKS
+unlink C:\Linux/usr/share/doc/xz/TODO
+unlink C:\Linux/usr/share/doc/xz/xz-file-format.txt
+unlink C:\Linux/usr/share/locale/ca/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/cs/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/da/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/de/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/eo/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/es/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/fi/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/fr/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/hr/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/hu/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/it/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/ko/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/pl/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/pt/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/pt_BR/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/ro/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/sr/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/sv/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/tr/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/uk/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/vi/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/zh_CN/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/locale/zh_TW/LC_MESSAGES/xz.mo
+unlink C:\Linux/usr/share/man/de/man1/lzcat.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzcmp.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzdiff.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzegrep.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzfgrep.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzgrep.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzless.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzma.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzmadec.1.gz
+unlink C:\Linux/usr/share/man/de/man1/lzmore.1.gz
+unlink C:\Linux/usr/share/man/de/man1/unlzma.1.gz
+unlink C:\Linux/usr/share/man/de/man1/unxz.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xz.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzcat.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzcmp.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzdec.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzdiff.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzegrep.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzfgrep.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzgrep.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzless.1.gz
+unlink C:\Linux/usr/share/man/de/man1/xzmore.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/lzcat.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/lzcmp.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/lzdiff.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/lzless.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/lzma.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/lzmadec.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/lzmore.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/unlzma.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/unxz.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/xz.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/xzcat.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/xzcmp.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/xzdec.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/xzdiff.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/xzless.1.gz
+unlink C:\Linux/usr/share/man/fr/man1/xzmore.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzcat.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzcmp.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzdiff.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzegrep.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzfgrep.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzgrep.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzless.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzma.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzmadec.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/lzmore.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/unlzma.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/unxz.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xz.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzcat.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzcmp.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzdec.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzdiff.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzegrep.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzfgrep.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzgrep.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzless.1.gz
+unlink C:\Linux/usr/share/man/ko/man1/xzmore.1.gz
+unlink C:\Linux/usr/share/man/man1/lzcat.1.gz
+unlink C:\Linux/usr/share/man/man1/lzcmp.1.gz
+unlink C:\Linux/usr/share/man/man1/lzdiff.1.gz
+unlink C:\Linux/usr/share/man/man1/lzegrep.1.gz
+unlink C:\Linux/usr/share/man/man1/lzfgrep.1.gz
+unlink C:\Linux/usr/share/man/man1/lzgrep.1.gz
+unlink C:\Linux/usr/share/man/man1/lzless.1.gz
+unlink C:\Linux/usr/share/man/man1/lzma.1.gz
+unlink C:\Linux/usr/share/man/man1/lzmadec.1.gz
+unlink C:\Linux/usr/share/man/man1/lzmainfo.1.gz
+unlink C:\Linux/usr/share/man/man1/lzmore.1.gz
+unlink C:\Linux/usr/share/man/man1/unlzma.1.gz
+unlink C:\Linux/usr/share/man/man1/unxz.1.gz
+unlink C:\Linux/usr/share/man/man1/xz.1.gz
+unlink C:\Linux/usr/share/man/man1/xzcat.1.gz
+unlink C:\Linux/usr/share/man/man1/xzcmp.1.gz
+unlink C:\Linux/usr/share/man/man1/xzdec.1.gz
+unlink C:\Linux/usr/share/man/man1/xzdiff.1.gz
+unlink C:\Linux/usr/share/man/man1/xzegrep.1.gz
+unlink C:\Linux/usr/share/man/man1/xzfgrep.1.gz
+unlink C:\Linux/usr/share/man/man1/xzgrep.1.gz
+unlink C:\Linux/usr/share/man/man1/xzless.1.gz
+unlink C:\Linux/usr/share/man/man1/xzmore.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzcat.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzcmp.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzdiff.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzegrep.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzfgrep.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzgrep.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzless.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzma.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzmadec.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/lzmore.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/unlzma.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/unxz.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xz.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzcat.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzcmp.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzdec.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzdiff.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzegrep.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzfgrep.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzgrep.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzless.1.gz
+unlink C:\Linux/usr/share/man/pt_BR/man1/xzmore.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzcat.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzcmp.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzdiff.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzegrep.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzfgrep.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzgrep.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzless.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzma.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzmadec.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/lzmore.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/unlzma.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/unxz.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xz.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzcat.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzcmp.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzdec.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzdiff.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzegrep.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzfgrep.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzgrep.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzless.1.gz
+unlink C:\Linux/usr/share/man/ro/man1/xzmore.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzcat.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzcmp.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzdiff.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzegrep.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzfgrep.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzgrep.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzless.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzma.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzmadec.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/lzmore.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/unlzma.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/unxz.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xz.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzcat.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzcmp.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzdec.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzdiff.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzegrep.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzfgrep.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzgrep.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzless.1.gz
+unlink C:\Linux/usr/share/man/uk/man1/xzmore.1.gz
+unlink C:\Linux\bin/lzcat
+unlink C:\Linux\bin/lzcmp
+unlink C:\Linux\bin/lzdiff
+unlink C:\Linux\bin/lzegrep
+unlink C:\Linux\bin/lzfgrep
+unlink C:\Linux\bin/lzgrep
+unlink C:\Linux\bin/lzless
+unlink C:\Linux\bin/lzma
+unlink C:\Linux\bin/lzmore
+unlink C:\Linux\bin/unlzma
+unlink C:\Linux\bin/unxz
+unlink C:\Linux\bin/xzcat
+unlink C:\Linux\bin/xzcmp
+unlink C:\Linux\bin/xzegrep
+unlink C:\Linux\bin/xzfgrep
+rmdir C:\Linux/usr/share/man/uk/man1
+rmdir C:\Linux/usr/share/man/uk
+rmdir C:\Linux/usr/share/doc/xz/examples_old
+rmdir C:\Linux/usr/share/doc/xz/examples
+rmdir C:\Linux/usr/share/doc/xz/api
+rmdir C:\Linux/usr/share/doc/xz
+2023/09/05 20:49:47 Uninstalling libmpfr6
+unlink C:\Linux\bin/cygmpfr-6.dll
+2023/09/05 20:49:47 Uninstalling libopenldap2_4_2
+unlink C:\Linux\bin/cyglber-2-4-2.dll
+unlink C:\Linux\bin/cygldap-2-4-2.dll
+unlink C:\Linux\bin/cygldap_r-2-4-2.dll
+2023/09/05 20:49:47 Uninstalling libcurl4
+unlink C:\Linux\bin/cygcurl-4.dll
+2023/09/05 20:49:47 Uninstalling libssl3
+unlink C:\Linux\bin/cygcrypto-3.dll
+unlink C:\Linux\bin/cygssl-3.dll
+unlink C:\Linux\lib/engines-3/capi.dll
+unlink C:\Linux\lib/engines-3/loader_attic.dll
+unlink C:\Linux\lib/engines-3/padlock.dll
+unlink C:\Linux\lib/ossl-modules/legacy.dll
+rmdir C:\Linux\lib/ossl-modules
+rmdir C:\Linux\lib/engines-3
+2023/09/05 20:49:47 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2023.2.60_v7.0.306-1.tar.zst
+Installing file cygfile:///etc/defaults/etc/pki/ca-trust/ca-legacy.conf
+Installing file cygfile:///etc/pki/ca-trust/
+Installing file cygfile:///etc/pki/ca-trust/extracted/
+Installing file cygfile:///etc/pki/ca-trust/extracted/edk2/
+Installing file cygfile:///etc/pki/ca-trust/extracted/edk2/cacerts.bin
+Installing file cygfile:///etc/pki/ca-trust/extracted/edk2/README
+Installing file cygfile:///etc/pki/ca-trust/extracted/java/
+Installing file cygfile:///etc/pki/ca-trust/extracted/java/cacerts
+Installing file cygfile:///etc/pki/ca-trust/extracted/java/README
+Installing file cygfile:///etc/pki/ca-trust/extracted/openssl/
+Installing file cygfile:///etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt
+Installing file cygfile:///etc/pki/ca-trust/extracted/openssl/README
+Installing file cygfile:///etc/pki/ca-trust/extracted/pem/
+Installing file cygfile:///etc/pki/ca-trust/extracted/pem/email-ca-bundle.pem
+Installing file cygfile:///etc/pki/ca-trust/extracted/pem/objsign-ca-bundle.pem
+Installing file cygfile:///etc/pki/ca-trust/extracted/pem/README
+Installing file cygfile:///etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
+Installing file cygfile:///etc/pki/ca-trust/extracted/README
+Installing file cygfile:///etc/pki/ca-trust/source/
+Installing file cygfile:///etc/pki/ca-trust/source/anchors/
+Installing file cygfile:///etc/pki/ca-trust/source/blacklist/
+Installing file cygfile:///etc/pki/ca-trust/source/README
+Installing file cygfile:///etc/postinstall/ca-certificates.sh
+Installing file cygfile:///etc/preremove/ca-certificates.sh
+Installing file cygfile:///usr/bin/ca-legacy
+Installing file cygfile:///usr/bin/update-ca-trust
+Installing file cygfile:///usr/libexec/p11-kit/
+Installing file cygfile:///usr/share/man/man8/ca-legacy.8.gz
+Installing file cygfile:///usr/share/man/man8/update-ca-trust.8.gz
+Installing file cygfile:///usr/share/pki/ca-trust-legacy/
+Installing file cygfile:///usr/share/pki/ca-trust-legacy/ca-bundle.legacy.default.crt
+Installing file cygfile:///usr/share/pki/ca-trust-legacy/ca-bundle.legacy.disable.crt
+Installing file cygfile:///usr/share/pki/ca-trust-source/
+Installing file cygfile:///usr/share/pki/ca-trust-source/anchors/
+Installing file cygfile:///usr/share/pki/ca-trust-source/blacklist/
+Installing file cygfile:///usr/share/pki/ca-trust-source/ca-bundle.trust.p11-kit
+Installing file cygfile:///usr/share/pki/ca-trust-source/README
+Installing file cygfile:///etc/pki/tls/cert.pem
+io_stream::mklink (cygfile:///etc/pki/tls/cert.pem->cygfile:///etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem)
+Installing file cygfile:///etc/pki/tls/certs/ca-bundle.crt
+io_stream::mklink (cygfile:///etc/pki/tls/certs/ca-bundle.crt->cygfile:///etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem)
+Installing file cygfile:///etc/pki/tls/certs/ca-bundle.trust.crt
+io_stream::mklink (cygfile:///etc/pki/tls/certs/ca-bundle.trust.crt->cygfile:///etc/pki/ca-trust/extracted/openssl/ca-bundle.trust.crt)
+Installing file cygfile:///etc/ssl/certs
+io_stream::mklink (cygfile:///etc/ssl/certs->cygfile:///etc/pki/tls/certs)
+Installing file cygfile:///usr/libexec/p11-kit/trust-extract-compat
+io_stream::mklink (cygfile:///usr/libexec/p11-kit/trust-extract-compat->cygfile://../../bin/update-ca-trust)
+Installing file cygfile:///usr/lib/security/cacerts
+io_stream::mklink (cygfile:///usr/lib/security/cacerts->cygfile:///etc/pki/ca-trust/extracted/java/cacerts)
+2023/09/05 20:49:47 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.4.8-1.tar.xz
+Installing file cygfile:///etc/defaults/
+Installing file cygfile:///etc/defaults/etc/
+Installing file cygfile:///etc/defaults/etc/cygserver.conf
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/chattr.exe
+Installing file cygfile:///usr/bin/cygcheck.exe
+Installing file cygfile:///usr/bin/cygpath.exe
+Installing file cygfile:///usr/bin/cygserver-config
+Installing file cygfile:///usr/bin/cygwin-console-helper.exe
+Installing file cygfile:///usr/bin/cygwin1.dll
+Installing file cygfile:///usr/bin/gencat.exe
+Installing file cygfile:///usr/bin/getconf.exe
+Installing file cygfile:///usr/bin/getfacl.exe
+Installing file cygfile:///usr/bin/gmondump.exe
+Installing file cygfile:///usr/bin/kill.exe
+Installing file cygfile:///usr/bin/ldd.exe
+Installing file cygfile:///usr/bin/ldh.exe
+Installing file cygfile:///usr/bin/locale.exe
+Installing file cygfile:///usr/bin/lsattr.exe
+Installing file cygfile:///usr/bin/minidumper.exe
+Installing file cygfile:///usr/bin/mkgroup.exe
+Installing file cygfile:///usr/bin/mkpasswd.exe
+Installing file cygfile:///usr/bin/mount.exe
+Installing file cygfile:///usr/bin/passwd.exe
+Installing file cygfile:///usr/bin/pldd.exe
+Installing file cygfile:///usr/bin/profiler.exe
+Installing file cygfile:///usr/bin/ps.exe
+Installing file cygfile:///usr/bin/regtool.exe
+Installing file cygfile:///usr/bin/setfacl.exe
+Installing file cygfile:///usr/bin/setmetamode.exe
+Installing file cygfile:///usr/bin/ssp.exe
+Installing file cygfile:///usr/bin/strace.exe
+Installing file cygfile:///usr/bin/tzset.exe
+Installing file cygfile:///usr/bin/umount.exe
+Installing file cygfile:///usr/sbin/
+Installing file cygfile:///usr/sbin/cygserver.exe
+Installing file cygfile:///usr/share/cygwin/
+Installing file cygfile:///usr/share/cygwin/cygwin.ldif
+Installing file cygfile:///usr/share/doc/Cygwin/
+Installing file cygfile:///usr/share/doc/Cygwin/COPYING
+Installing file cygfile:///usr/share/doc/Cygwin/cygserver.README
+Installing file cygfile:///usr/share/doc/Cygwin/CYGWIN_LICENSE
+2023/09/05 20:49:48 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.3-1.tar.zst
+Installing file cygfile:///usr/bin/cygz.dll
+2023/09/05 20:49:48 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/wget/wget-1.21.4-1.tar.xz
+Installing file cygfile:///etc/
+Installing file cygfile:///etc/defaults/
+Installing file cygfile:///etc/defaults/etc/
+Installing file cygfile:///etc/defaults/etc/wgetrc
+Installing file cygfile:///etc/postinstall/
+Installing file cygfile:///etc/postinstall/wget.sh
+Installing file cygfile:///etc/preremove/
+Installing file cygfile:///etc/preremove/wget.sh
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/wget.exe
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/wget/
+Installing file cygfile:///usr/share/doc/wget/AUTHORS
+Installing file cygfile:///usr/share/doc/wget/ChangeLog
+Installing file cygfile:///usr/share/doc/wget/COPYING
+Installing file cygfile:///usr/share/doc/wget/NEWS
+Installing file cygfile:///usr/share/doc/wget/README
+Installing file cygfile:///usr/share/info/
+Installing file cygfile:///usr/share/info/wget.info.gz
+Installing file cygfile:///usr/share/locale/
+Installing file cygfile:///usr/share/locale/af/
+Installing file cygfile:///usr/share/locale/af/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/af/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/be/
+Installing file cygfile:///usr/share/locale/be/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/be/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/be/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/bg/
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/bg/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/ca/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/cs/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/da/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/de/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/el/
+Installing file cygfile:///usr/share/locale/el/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/el/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/el/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/en_GB/
+Installing file cygfile:///usr/share/locale/en_GB/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/en_GB/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/eo/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/es/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/et/
+Installing file cygfile:///usr/share/locale/et/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/et/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/et/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/eu/
+Installing file cygfile:///usr/share/locale/eu/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/eu/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/eu/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/fi/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/fr/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/ga/
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/ga/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/gl/
+Installing file cygfile:///usr/share/locale/gl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/gl/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/gl/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/he/
+Installing file cygfile:///usr/share/locale/he/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/he/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/hr/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/hu/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/id/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/id/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/it/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/ja/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/ja/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/ka/
+Installing file cygfile:///usr/share/locale/ka/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ka/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/ka/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/ko/
+Installing file cygfile:///usr/share/locale/ko/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ko/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/ko/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/lt/
+Installing file cygfile:///usr/share/locale/lt/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/lt/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/ms/
+Installing file cygfile:///usr/share/locale/ms/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ms/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/nb/
+Installing file cygfile:///usr/share/locale/nb/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nb/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/nb/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/nl/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/nl/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/pl/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/pt/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/pt_BR/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/ro/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/ru/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/ru/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/rw/
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/rw/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/sk/
+Installing file cygfile:///usr/share/locale/sk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sk/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/sk/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/sl/
+Installing file cygfile:///usr/share/locale/sl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sl/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/sl/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/sr/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/sv/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/tr/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/uk/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/vi/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/zh_CN/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/locale/zh_TW/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/wget-gnulib.mo
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/wget.mo
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/wget.1.gz
+2023/09/05 20:49:48 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.6-1.tar.xz
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/peflags.exe
+Installing file cygfile:///usr/bin/peflagsall
+Installing file cygfile:///usr/bin/rebase.exe
+Installing file cygfile:///usr/bin/rebaseall
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/rebase/
+Installing file cygfile:///usr/share/doc/rebase/COPYING
+Installing file cygfile:///usr/share/doc/rebase/NEWS
+Installing file cygfile:///usr/share/doc/rebase/README
+Installing file cygfile:///usr/share/doc/rebase/Todo
+2023/09/05 20:49:48 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.5-1.tar.xz
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/mintheme
+Installing file cygfile:///usr/bin/mintty.exe
+Installing file cygfile:///etc/
+Installing file cygfile:///etc/postinstall/
+Installing file cygfile:///etc/postinstall/mintty.sh
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/applications/
+Installing file cygfile:///usr/share/applications/mintty.desktop
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/mintty/
+Installing file cygfile:///usr/share/doc/mintty/LICENSE
+Installing file cygfile:///usr/share/doc/mintty/LICENSE.bundling
+Installing file cygfile:///usr/share/doc/mintty/LICENSE.GPL
+Installing file cygfile:///usr/share/doc/mintty/LICENSE.Oxygen
+Installing file cygfile:///usr/share/doc/mintty/LICENSE.PuTTY
+Installing file cygfile:///usr/share/doc/mintty/README
+Installing file cygfile:///usr/share/doc/mintty/setup.hint
+Installing file cygfile:///usr/share/icons/
+Installing file cygfile:///usr/share/icons/hicolor/
+Installing file cygfile:///usr/share/icons/hicolor/16x16/
+Installing file cygfile:///usr/share/icons/hicolor/16x16/apps/
+Installing file cygfile:///usr/share/icons/hicolor/16x16/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/24x24/
+Installing file cygfile:///usr/share/icons/hicolor/24x24/apps/
+Installing file cygfile:///usr/share/icons/hicolor/24x24/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/256x256/
+Installing file cygfile:///usr/share/icons/hicolor/256x256/apps/
+Installing file cygfile:///usr/share/icons/hicolor/256x256/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/32x32/
+Installing file cygfile:///usr/share/icons/hicolor/32x32/apps/
+Installing file cygfile:///usr/share/icons/hicolor/32x32/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/48x48/
+Installing file cygfile:///usr/share/icons/hicolor/48x48/apps/
+Installing file cygfile:///usr/share/icons/hicolor/48x48/apps/mintty.png
+Installing file cygfile:///usr/share/icons/hicolor/64x64/
+Installing file cygfile:///usr/share/icons/hicolor/64x64/apps/
+Installing file cygfile:///usr/share/icons/hicolor/64x64/apps/mintty.png
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/mintty.1.gz
+Installing file cygfile:///usr/share/mintty/
+Installing file cygfile:///usr/share/mintty/emojis/
+Installing file cygfile:///usr/share/mintty/emojis/getemojis
+Installing file cygfile:///usr/share/mintty/emojis/getflags
+Installing file cygfile:///usr/share/mintty/icon/
+Installing file cygfile:///usr/share/mintty/icon/wsl.ico
+Installing file cygfile:///usr/share/mintty/lang/
+Installing file cygfile:///usr/share/mintty/lang/de.po
+Installing file cygfile:///usr/share/mintty/lang/en.po
+Installing file cygfile:///usr/share/mintty/lang/en_US.po
+Installing file cygfile:///usr/share/mintty/lang/es.po
+Installing file cygfile:///usr/share/mintty/lang/fr.po
+Installing file cygfile:///usr/share/mintty/lang/hr.po
+Installing file cygfile:///usr/share/mintty/lang/ja.po
+Installing file cygfile:///usr/share/mintty/lang/messages.pot
+Installing file cygfile:///usr/share/mintty/lang/nb.po
+Installing file cygfile:///usr/share/mintty/lang/pt_BR.po
+Installing file cygfile:///usr/share/mintty/lang/ru.po
+Installing file cygfile:///usr/share/mintty/lang/sv.po
+Installing file cygfile:///usr/share/mintty/lang/zh_CN.po
+Installing file cygfile:///usr/share/mintty/lang/zh_TW.po
+Installing file cygfile:///usr/share/mintty/sounds/
+Installing file cygfile:///usr/share/mintty/sounds/ambient-drip-lo.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-drop.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-glass.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-splash.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-swoosh.wav
+Installing file cygfile:///usr/share/mintty/sounds/ambient-uncork.wav
+Installing file cygfile:///usr/share/mintty/sounds/BOING.WAV
+Installing file cygfile:///usr/share/mintty/sounds/percussive-bongo-hi.wav
+Installing file cygfile:///usr/share/mintty/sounds/percussive-bongo-lo.wav
+Installing file cygfile:///usr/share/mintty/sounds/percussive-gong.wav
+Installing file cygfile:///usr/share/mintty/sounds/percussive-knock.wav
+Installing file cygfile:///usr/share/mintty/sounds/percussive-synthkick-lo.wav
+Installing file cygfile:///usr/share/mintty/sounds/README.md
+Installing file cygfile:///usr/share/mintty/sounds/resonant-flute.wav
+Installing file cygfile:///usr/share/mintty/sounds/resonant-organ.wav
+Installing file cygfile:///usr/share/mintty/sounds/resonant-reverb.wav
+Installing file cygfile:///usr/share/mintty/sounds/resonant-twang.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-bass.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-gib.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-honk.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-intruder.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-rave.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-select.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-spike.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-sproing.wav
+Installing file cygfile:///usr/share/mintty/sounds/synthetic-square.wav
+Installing file cygfile:///usr/share/mintty/sounds/vocal-boo.wav
+Installing file cygfile:///usr/share/mintty/sounds/vocal-hah.wav
+Installing file cygfile:///usr/share/mintty/sounds/vocal-yip.wav
+Installing file cygfile:///usr/share/mintty/themes/
+Installing file cygfile:///usr/share/mintty/themes/dracula
+Installing file cygfile:///usr/share/mintty/themes/flat-ui
+Installing file cygfile:///usr/share/mintty/themes/gruvbox
+Installing file cygfile:///usr/share/mintty/themes/helmholtz
+Installing file cygfile:///usr/share/mintty/themes/html
+Installing file cygfile:///usr/share/mintty/themes/kohlrausch
+Installing file cygfile:///usr/share/mintty/themes/luminous
+Installing file cygfile:///usr/share/mintty/themes/mintty
+Installing file cygfile:///usr/share/mintty/themes/monokai-dimmed
+Installing file cygfile:///usr/share/mintty/themes/nord
+Installing file cygfile:///usr/share/mintty/themes/rosipov
+Installing file cygfile:///usr/share/mintty/themes/vga
+Installing file cygfile:///usr/share/mintty/themes/windows10
+Installing file cygfile:///usr/share/mintty/themes/xterm
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1v-1.tar.zst
+Installing file cygfile:///etc/defaults/etc/pki/tls/ct_log_list.cnf
+Installing file cygfile:///etc/defaults/etc/pki/tls/openssl.cnf
+Installing file cygfile:///etc/postinstall/openssl.sh
+Installing file cygfile:///etc/preremove/openssl.sh
+Installing file cygfile:///usr/bin/cygcrypto-1.1.dll
+Installing file cygfile:///usr/bin/cygssl-1.1.dll
+Installing file cygfile:///usr/lib/engines-1.1/
+Installing file cygfile:///usr/lib/engines-1.1/capi.dll
+Installing file cygfile:///usr/lib/engines-1.1/padlock.dll
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.4.4-1.tar.zst
+Installing file cygfile:///usr/bin/cyglzma-5.dll
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.3.0-1.tar.zst
+Installing file cygfile:///usr/bin/cyggmp-10.dll
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.13-1.tar.xz
+Installing file cygfile:///usr/
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/gunzip
+Installing file cygfile:///usr/bin/gzexe
+Installing file cygfile:///usr/bin/gzip.exe
+Installing file cygfile:///usr/bin/zcat
+Installing file cygfile:///usr/bin/zcmp
+Installing file cygfile:///usr/bin/zdiff
+Installing file cygfile:///usr/bin/zegrep
+Installing file cygfile:///usr/bin/zfgrep
+Installing file cygfile:///usr/bin/zforce
+Installing file cygfile:///usr/bin/zgrep
+Installing file cygfile:///usr/bin/zless
+Installing file cygfile:///usr/bin/zmore
+Installing file cygfile:///usr/bin/znew
+Installing file cygfile:///usr/lib/
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/gzip/
+Installing file cygfile:///usr/share/doc/gzip/AUTHORS
+Installing file cygfile:///usr/share/doc/gzip/ChangeLog
+Installing file cygfile:///usr/share/doc/gzip/COPYING
+Installing file cygfile:///usr/share/doc/gzip/NEWS
+Installing file cygfile:///usr/share/doc/gzip/README
+Installing file cygfile:///usr/share/doc/gzip/THANKS
+Installing file cygfile:///usr/share/doc/gzip/TODO
+Installing file cygfile:///usr/share/info/
+Installing file cygfile:///usr/share/info/gzip.info.gz
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/gunzip.1.gz
+Installing file cygfile:///usr/share/man/man1/gzexe.1.gz
+Installing file cygfile:///usr/share/man/man1/gzip.1.gz
+Installing file cygfile:///usr/share/man/man1/zcat.1.gz
+Installing file cygfile:///usr/share/man/man1/zcmp.1.gz
+Installing file cygfile:///usr/share/man/man1/zdiff.1.gz
+Installing file cygfile:///usr/share/man/man1/zforce.1.gz
+Installing file cygfile:///usr/share/man/man1/zgrep.1.gz
+Installing file cygfile:///usr/share/man/man1/zless.1.gz
+Installing file cygfile:///usr/share/man/man1/zmore.1.gz
+Installing file cygfile:///usr/share/man/man1/znew.1.gz
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1v-1.tar.zst
+Installing file cygfile:///etc/pki/tls/
+Installing file cygfile:///etc/pki/tls/certs/
+Installing file cygfile:///etc/pki/tls/misc/
+Installing file cygfile:///etc/pki/tls/private/
+Installing file cygfile:///usr/bin/openssl.exe
+Installing file cygfile:///usr/bin/make-dummy-cert
+Installing file cygfile:///usr/bin/renew-dummy-cert
+Installing file cygfile:///usr/share/doc/openssl/
+Installing file cygfile:///usr/share/doc/openssl/AUTHORS
+Installing file cygfile:///usr/share/doc/openssl/CHANGES
+Installing file cygfile:///usr/share/doc/openssl/FAQ
+Installing file cygfile:///usr/share/doc/openssl/INSTALL
+Installing file cygfile:///usr/share/doc/openssl/LICENSE
+Installing file cygfile:///usr/share/doc/openssl/Makefile.certificate
+Installing file cygfile:///usr/share/doc/openssl/NEWS
+Installing file cygfile:///usr/share/doc/openssl/README
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/asn1parse.1.gz
+Installing file cygfile:///usr/share/man/man1/ca.1.gz
+Installing file cygfile:///usr/share/man/man1/ciphers.1.gz
+Installing file cygfile:///usr/share/man/man1/cms.1.gz
+Installing file cygfile:///usr/share/man/man1/crl.1.gz
+Installing file cygfile:///usr/share/man/man1/crl2pkcs7.1.gz
+Installing file cygfile:///usr/share/man/man1/dgst.1.gz
+Installing file cygfile:///usr/share/man/man1/dhparam.1.gz
+Installing file cygfile:///usr/share/man/man1/dsa.1.gz
+Installing file cygfile:///usr/share/man/man1/dsaparam.1.gz
+Installing file cygfile:///usr/share/man/man1/ec.1.gz
+Installing file cygfile:///usr/share/man/man1/ecparam.1.gz
+Installing file cygfile:///usr/share/man/man1/enc.1.gz
+Installing file cygfile:///usr/share/man/man1/engine.1.gz
+Installing file cygfile:///usr/share/man/man1/errstr.1.gz
+Installing file cygfile:///usr/share/man/man1/gendsa.1.gz
+Installing file cygfile:///usr/share/man/man1/genpkey.1.gz
+Installing file cygfile:///usr/share/man/man1/genrsa.1.gz
+Installing file cygfile:///usr/share/man/man1/list.1.gz
+Installing file cygfile:///usr/share/man/man1/nseq.1.gz
+Installing file cygfile:///usr/share/man/man1/ocsp.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-asn1parse.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-ca.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-ciphers.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-cms.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-crl.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-crl2pkcs7.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-c_rehash.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-dgst.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-dhparam.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-dsa.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-dsaparam.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-ec.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-ecparam.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-enc.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-engine.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-errstr.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-gendsa.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-genpkey.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-genrsa.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-list.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-nseq.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-ocsp.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-passwd.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-pkcs12.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-pkcs7.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-pkcs8.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-pkey.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-pkeyparam.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-pkeyutl.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-prime.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-rand.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-rehash.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-req.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-rsa.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-rsautl.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-sess_id.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-smime.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-speed.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-spkac.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-srp.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-storeutl.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-s_client.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-s_server.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-s_time.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-ts.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-tsget.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-verify.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-version.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl-x509.1.gz
+Installing file cygfile:///usr/share/man/man1/openssl.1.gz
+Installing file cygfile:///usr/share/man/man1/passwd.1.gz
+Installing file cygfile:///usr/share/man/man1/pkcs12.1.gz
+Installing file cygfile:///usr/share/man/man1/pkcs7.1.gz
+Installing file cygfile:///usr/share/man/man1/pkcs8.1.gz
+Installing file cygfile:///usr/share/man/man1/pkey.1.gz
+Installing file cygfile:///usr/share/man/man1/pkeyparam.1.gz
+Installing file cygfile:///usr/share/man/man1/pkeyutl.1.gz
+Installing file cygfile:///usr/share/man/man1/prime.1.gz
+Installing file cygfile:///usr/share/man/man1/rand.1.gz
+Installing file cygfile:///usr/share/man/man1/rehash.1.gz
+Installing file cygfile:///usr/share/man/man1/req.1.gz
+Installing file cygfile:///usr/share/man/man1/rsa.1.gz
+Installing file cygfile:///usr/share/man/man1/rsautl.1.gz
+Installing file cygfile:///usr/share/man/man1/sess_id.1.gz
+Installing file cygfile:///usr/share/man/man1/smime.1.gz
+Installing file cygfile:///usr/share/man/man1/speed.1.gz
+Installing file cygfile:///usr/share/man/man1/spkac.1.gz
+Installing file cygfile:///usr/share/man/man1/srp.1.gz
+Installing file cygfile:///usr/share/man/man1/storeutl.1.gz
+Installing file cygfile:///usr/share/man/man1/s_client.1.gz
+Installing file cygfile:///usr/share/man/man1/s_server.1.gz
+Installing file cygfile:///usr/share/man/man1/s_time.1.gz
+Installing file cygfile:///usr/share/man/man1/ts.1.gz
+Installing file cygfile:///usr/share/man/man1/verify.1.gz
+Installing file cygfile:///usr/share/man/man1/version.1.gz
+Installing file cygfile:///usr/share/man/man1/x509.1.gz
+Installing file cygfile:///usr/share/man/man5/
+Installing file cygfile:///usr/share/man/man5/config.5.gz
+Installing file cygfile:///usr/share/man/man5/x509v3_config.5.gz
+Installing file cygfile:///usr/share/man/man7/
+Installing file cygfile:///usr/share/man/man7/bio.7.gz
+Installing file cygfile:///usr/share/man/man7/crypto.7.gz
+Installing file cygfile:///usr/share/man/man7/ct.7.gz
+Installing file cygfile:///usr/share/man/man7/des_modes.7.gz
+Installing file cygfile:///usr/share/man/man7/Ed25519.7.gz
+Installing file cygfile:///usr/share/man/man7/Ed448.7.gz
+Installing file cygfile:///usr/share/man/man7/evp.7.gz
+Installing file cygfile:///usr/share/man/man7/ossl_store-file.7.gz
+Installing file cygfile:///usr/share/man/man7/ossl_store.7.gz
+Installing file cygfile:///usr/share/man/man7/passphrase-encoding.7.gz
+Installing file cygfile:///usr/share/man/man7/proxy-certificates.7.gz
+Installing file cygfile:///usr/share/man/man7/RAND.7.gz
+Installing file cygfile:///usr/share/man/man7/RAND_DRBG.7.gz
+Installing file cygfile:///usr/share/man/man7/RSA-PSS.7.gz
+Installing file cygfile:///usr/share/man/man7/scrypt.7.gz
+Installing file cygfile:///usr/share/man/man7/SM2.7.gz
+Installing file cygfile:///usr/share/man/man7/ssl.7.gz
+Installing file cygfile:///usr/share/man/man7/X25519.7.gz
+Installing file cygfile:///usr/share/man/man7/X448.7.gz
+Installing file cygfile:///usr/share/man/man7/x509.7.gz
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2/libopenldap2-2.6.6-1.tar.zst
+Installing file cygfile:///usr/bin/cyglber-2.dll
+Installing file cygfile:///usr/bin/cygldap-2.dll
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/xz/xz-5.4.4-1.tar.zst
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/lzmadec.exe
+Installing file cygfile:///usr/bin/lzmainfo.exe
+Installing file cygfile:///usr/bin/xz.exe
+Installing file cygfile:///usr/bin/xzdec.exe
+Installing file cygfile:///usr/bin/xzdiff
+Installing file cygfile:///usr/bin/xzgrep
+Installing file cygfile:///usr/bin/xzless
+Installing file cygfile:///usr/bin/xzmore
+Installing file cygfile:///usr/share/
+Installing file cygfile:///usr/share/doc/
+Installing file cygfile:///usr/share/doc/xz/
+Installing file cygfile:///usr/share/doc/xz/api/
+Installing file cygfile:///usr/share/doc/xz/api/annotated.html
+Installing file cygfile:///usr/share/doc/xz/api/base_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/bcj_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/bc_s.png
+Installing file cygfile:///usr/share/doc/xz/api/bc_sd.png
+Installing file cygfile:///usr/share/doc/xz/api/block_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/check_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/classes.html
+Installing file cygfile:///usr/share/doc/xz/api/closed.png
+Installing file cygfile:///usr/share/doc/xz/api/container_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/delta_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/dir_b17a1d403082bd69a703ed987cf158fb.html
+Installing file cygfile:///usr/share/doc/xz/api/doc.svg
+Installing file cygfile:///usr/share/doc/xz/api/docd.svg
+Installing file cygfile:///usr/share/doc/xz/api/doxygen.css
+Installing file cygfile:///usr/share/doc/xz/api/doxygen.svg
+Installing file cygfile:///usr/share/doc/xz/api/files.html
+Installing file cygfile:///usr/share/doc/xz/api/filter_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/folderclosed.svg
+Installing file cygfile:///usr/share/doc/xz/api/folderclosedd.svg
+Installing file cygfile:///usr/share/doc/xz/api/folderopen.svg
+Installing file cygfile:///usr/share/doc/xz/api/folderopend.svg
+Installing file cygfile:///usr/share/doc/xz/api/functions.html
+Installing file cygfile:///usr/share/doc/xz/api/functions_vars.html
+Installing file cygfile:///usr/share/doc/xz/api/globals.html
+Installing file cygfile:///usr/share/doc/xz/api/globals_defs.html
+Installing file cygfile:///usr/share/doc/xz/api/globals_enum.html
+Installing file cygfile:///usr/share/doc/xz/api/globals_eval.html
+Installing file cygfile:///usr/share/doc/xz/api/globals_func.html
+Installing file cygfile:///usr/share/doc/xz/api/globals_type.html
+Installing file cygfile:///usr/share/doc/xz/api/hardware_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/index.html
+Installing file cygfile:///usr/share/doc/xz/api/index_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/index__hash_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/lzma12_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/lzma_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/nav_f.png
+Installing file cygfile:///usr/share/doc/xz/api/nav_fd.png
+Installing file cygfile:///usr/share/doc/xz/api/nav_g.png
+Installing file cygfile:///usr/share/doc/xz/api/nav_h.png
+Installing file cygfile:///usr/share/doc/xz/api/nav_hd.png
+Installing file cygfile:///usr/share/doc/xz/api/open.png
+Installing file cygfile:///usr/share/doc/xz/api/splitbar.png
+Installing file cygfile:///usr/share/doc/xz/api/splitbard.png
+Installing file cygfile:///usr/share/doc/xz/api/stream__flags_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__allocator.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__block.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__filter.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__index__iter.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__mt.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__options__bcj.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__options__delta.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__options__lzma.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__stream.html
+Installing file cygfile:///usr/share/doc/xz/api/structlzma__stream__flags.html
+Installing file cygfile:///usr/share/doc/xz/api/sync_off.png
+Installing file cygfile:///usr/share/doc/xz/api/sync_on.png
+Installing file cygfile:///usr/share/doc/xz/api/tabs.css
+Installing file cygfile:///usr/share/doc/xz/api/tab_a.png
+Installing file cygfile:///usr/share/doc/xz/api/tab_ad.png
+Installing file cygfile:///usr/share/doc/xz/api/tab_b.png
+Installing file cygfile:///usr/share/doc/xz/api/tab_bd.png
+Installing file cygfile:///usr/share/doc/xz/api/tab_h.png
+Installing file cygfile:///usr/share/doc/xz/api/tab_hd.png
+Installing file cygfile:///usr/share/doc/xz/api/tab_s.png
+Installing file cygfile:///usr/share/doc/xz/api/tab_sd.png
+Installing file cygfile:///usr/share/doc/xz/api/version_8h.html
+Installing file cygfile:///usr/share/doc/xz/api/vli_8h.html
+Installing file cygfile:///usr/share/doc/xz/AUTHORS
+Installing file cygfile:///usr/share/doc/xz/ChangeLog
+Installing file cygfile:///usr/share/doc/xz/COPYING
+Installing file cygfile:///usr/share/doc/xz/COPYING.GPLv2
+Installing file cygfile:///usr/share/doc/xz/COPYING.LGPLv2.1
+Installing file cygfile:///usr/share/doc/xz/examples/
+Installing file cygfile:///usr/share/doc/xz/examples/00_README.txt
+Installing file cygfile:///usr/share/doc/xz/examples/01_compress_easy.c
+Installing file cygfile:///usr/share/doc/xz/examples/02_decompress.c
+Installing file cygfile:///usr/share/doc/xz/examples/03_compress_custom.c
+Installing file cygfile:///usr/share/doc/xz/examples/04_compress_easy_mt.c
+Installing file cygfile:///usr/share/doc/xz/examples/Makefile
+Installing file cygfile:///usr/share/doc/xz/examples_old/
+Installing file cygfile:///usr/share/doc/xz/examples_old/xz_pipe_comp.c
+Installing file cygfile:///usr/share/doc/xz/examples_old/xz_pipe_decomp.c
+Installing file cygfile:///usr/share/doc/xz/faq.txt
+Installing file cygfile:///usr/share/doc/xz/history.txt
+Installing file cygfile:///usr/share/doc/xz/liblzma.def
+Installing file cygfile:///usr/share/doc/xz/lzma-file-format.txt
+Installing file cygfile:///usr/share/doc/xz/NEWS
+Installing file cygfile:///usr/share/doc/xz/README
+Installing file cygfile:///usr/share/doc/xz/THANKS
+Installing file cygfile:///usr/share/doc/xz/TODO
+Installing file cygfile:///usr/share/doc/xz/xz-file-format.txt
+Installing file cygfile:///usr/share/locale/
+Installing file cygfile:///usr/share/locale/ca/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ca/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/cs/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/cs/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/da/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/da/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/de/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/de/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/eo/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/eo/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/es/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/es/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/fi/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fi/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/fr/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/fr/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/hr/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hr/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/hu/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/hu/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/it/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/it/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/ko/
+Installing file cygfile:///usr/share/locale/ko/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ko/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/pl/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pl/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/pt/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/pt_BR/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/pt_BR/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/ro/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/ro/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/sr/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sr/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/sv/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/sv/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/tr/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/tr/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/uk/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/uk/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/vi/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/vi/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/zh_CN/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_CN/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/locale/zh_TW/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/
+Installing file cygfile:///usr/share/locale/zh_TW/LC_MESSAGES/xz.mo
+Installing file cygfile:///usr/share/man/
+Installing file cygfile:///usr/share/man/de/
+Installing file cygfile:///usr/share/man/de/man1/
+Installing file cygfile:///usr/share/man/de/man1/lzcat.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzcmp.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzdiff.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzegrep.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzfgrep.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzgrep.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzless.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzma.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzmadec.1.gz
+Installing file cygfile:///usr/share/man/de/man1/lzmore.1.gz
+Installing file cygfile:///usr/share/man/de/man1/unlzma.1.gz
+Installing file cygfile:///usr/share/man/de/man1/unxz.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xz.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzcat.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzcmp.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzdec.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzdiff.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzegrep.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzfgrep.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzgrep.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzless.1.gz
+Installing file cygfile:///usr/share/man/de/man1/xzmore.1.gz
+Installing file cygfile:///usr/share/man/fr/
+Installing file cygfile:///usr/share/man/fr/man1/
+Installing file cygfile:///usr/share/man/fr/man1/lzcat.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/lzcmp.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/lzdiff.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/lzless.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/lzma.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/lzmadec.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/lzmore.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/unlzma.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/unxz.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/xz.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/xzcat.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/xzcmp.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/xzdec.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/xzdiff.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/xzless.1.gz
+Installing file cygfile:///usr/share/man/fr/man1/xzmore.1.gz
+Installing file cygfile:///usr/share/man/ko/
+Installing file cygfile:///usr/share/man/ko/man1/
+Installing file cygfile:///usr/share/man/ko/man1/lzcat.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzcmp.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzdiff.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzegrep.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzfgrep.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzgrep.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzless.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzma.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzmadec.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/lzmore.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/unlzma.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/unxz.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xz.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzcat.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzcmp.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzdec.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzdiff.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzegrep.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzfgrep.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzgrep.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzless.1.gz
+Installing file cygfile:///usr/share/man/ko/man1/xzmore.1.gz
+Installing file cygfile:///usr/share/man/man1/
+Installing file cygfile:///usr/share/man/man1/lzcat.1.gz
+Installing file cygfile:///usr/share/man/man1/lzcmp.1.gz
+Installing file cygfile:///usr/share/man/man1/lzdiff.1.gz
+Installing file cygfile:///usr/share/man/man1/lzegrep.1.gz
+Installing file cygfile:///usr/share/man/man1/lzfgrep.1.gz
+Installing file cygfile:///usr/share/man/man1/lzgrep.1.gz
+Installing file cygfile:///usr/share/man/man1/lzless.1.gz
+Installing file cygfile:///usr/share/man/man1/lzma.1.gz
+Installing file cygfile:///usr/share/man/man1/lzmadec.1.gz
+Installing file cygfile:///usr/share/man/man1/lzmainfo.1.gz
+Installing file cygfile:///usr/share/man/man1/lzmore.1.gz
+Installing file cygfile:///usr/share/man/man1/unlzma.1.gz
+Installing file cygfile:///usr/share/man/man1/unxz.1.gz
+Installing file cygfile:///usr/share/man/man1/xz.1.gz
+Installing file cygfile:///usr/share/man/man1/xzcat.1.gz
+Installing file cygfile:///usr/share/man/man1/xzcmp.1.gz
+Installing file cygfile:///usr/share/man/man1/xzdec.1.gz
+Installing file cygfile:///usr/share/man/man1/xzdiff.1.gz
+Installing file cygfile:///usr/share/man/man1/xzegrep.1.gz
+Installing file cygfile:///usr/share/man/man1/xzfgrep.1.gz
+Installing file cygfile:///usr/share/man/man1/xzgrep.1.gz
+Installing file cygfile:///usr/share/man/man1/xzless.1.gz
+Installing file cygfile:///usr/share/man/man1/xzmore.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/
+Installing file cygfile:///usr/share/man/pt_BR/man1/
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzcat.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzcmp.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzdiff.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzegrep.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzfgrep.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzgrep.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzless.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzma.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzmadec.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/lzmore.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/unlzma.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/unxz.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xz.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzcat.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzcmp.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzdec.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzdiff.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzegrep.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzfgrep.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzgrep.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzless.1.gz
+Installing file cygfile:///usr/share/man/pt_BR/man1/xzmore.1.gz
+Installing file cygfile:///usr/share/man/ro/
+Installing file cygfile:///usr/share/man/ro/man1/
+Installing file cygfile:///usr/share/man/ro/man1/lzcat.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzcmp.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzdiff.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzegrep.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzfgrep.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzgrep.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzless.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzma.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzmadec.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/lzmore.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/unlzma.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/unxz.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xz.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzcat.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzcmp.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzdec.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzdiff.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzegrep.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzfgrep.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzgrep.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzless.1.gz
+Installing file cygfile:///usr/share/man/ro/man1/xzmore.1.gz
+Installing file cygfile:///usr/share/man/uk/
+Installing file cygfile:///usr/share/man/uk/man1/
+Installing file cygfile:///usr/share/man/uk/man1/lzcat.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzcmp.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzdiff.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzegrep.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzfgrep.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzgrep.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzless.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzma.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzmadec.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/lzmore.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/unlzma.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/unxz.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xz.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzcat.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzcmp.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzdec.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzdiff.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzegrep.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzfgrep.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzgrep.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzless.1.gz
+Installing file cygfile:///usr/share/man/uk/man1/xzmore.1.gz
+Installing file cygfile:///usr/bin/lzcat
+io_stream::mklink (cygfile:///usr/bin/lzcat->cygfile://xz.exe)
+Installing file cygfile:///usr/bin/lzcmp
+io_stream::mklink (cygfile:///usr/bin/lzcmp->cygfile://xzdiff)
+Installing file cygfile:///usr/bin/lzdiff
+io_stream::mklink (cygfile:///usr/bin/lzdiff->cygfile://xzdiff)
+Installing file cygfile:///usr/bin/lzegrep
+io_stream::mklink (cygfile:///usr/bin/lzegrep->cygfile://xzgrep)
+Installing file cygfile:///usr/bin/lzfgrep
+io_stream::mklink (cygfile:///usr/bin/lzfgrep->cygfile://xzgrep)
+Installing file cygfile:///usr/bin/lzgrep
+io_stream::mklink (cygfile:///usr/bin/lzgrep->cygfile://xzgrep)
+Installing file cygfile:///usr/bin/lzless
+io_stream::mklink (cygfile:///usr/bin/lzless->cygfile://xzless)
+Installing file cygfile:///usr/bin/lzma
+io_stream::mklink (cygfile:///usr/bin/lzma->cygfile://xz.exe)
+Installing file cygfile:///usr/bin/lzmore
+io_stream::mklink (cygfile:///usr/bin/lzmore->cygfile://xzmore)
+Installing file cygfile:///usr/bin/unlzma
+io_stream::mklink (cygfile:///usr/bin/unlzma->cygfile://xz.exe)
+Installing file cygfile:///usr/bin/unxz
+io_stream::mklink (cygfile:///usr/bin/unxz->cygfile://xz.exe)
+Installing file cygfile:///usr/bin/xzcat
+io_stream::mklink (cygfile:///usr/bin/xzcat->cygfile://xz.exe)
+Installing file cygfile:///usr/bin/xzcmp
+io_stream::mklink (cygfile:///usr/bin/xzcmp->cygfile://xzdiff)
+Installing file cygfile:///usr/bin/xzegrep
+io_stream::mklink (cygfile:///usr/bin/xzegrep->cygfile://xzgrep)
+Installing file cygfile:///usr/bin/xzfgrep
+io_stream::mklink (cygfile:///usr/bin/xzfgrep->cygfile://xzgrep)
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.2.1-1.tar.zst
+Installing file cygfile:///usr/bin/
+Installing file cygfile:///usr/bin/cygmpfr-6.dll
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openldap/libopenldap2_4_2/libopenldap2_4_2-2.6.6-1.tar.zst
+Installing file cygfile:///usr/bin/cyglber-2-4-2.dll
+Installing file cygfile:///usr/bin/cygldap-2-4-2.dll
+Installing file cygfile:///usr/bin/cygldap_r-2-4-2.dll
+2023/09/05 20:49:49 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/curl/libcurl4/libcurl4-8.2.1-1.tar.xz
+Installing file cygfile:///usr/bin/cygcurl-4.dll
+2023/09/05 20:49:50 Extracting from file://H:\Linux/https%3a%2f%2fmirrors.163.com%2fcygwin%2f/x86_64/release/openssl/libssl3/libssl3-3.0.10-0.1.tar.zst
+Installing file cygfile:///etc/defaults/etc/pki/tls/ct_log_list.cnf
+Installing file cygfile:///etc/defaults/etc/pki/tls/openssl.cnf
+Installing file cygfile:///etc/postinstall/openssl.sh
+Installing file cygfile:///etc/preremove/openssl.sh
+Installing file cygfile:///usr/bin/cygcrypto-3.dll
+Installing file cygfile:///usr/bin/cygssl-3.dll
+Installing file cygfile:///usr/lib/engines-3/
+Installing file cygfile:///usr/lib/engines-3/capi.dll
+Installing file cygfile:///usr/lib/engines-3/loader_attic.dll
+Installing file cygfile:///usr/lib/engines-3/padlock.dll
+Installing file cygfile:///usr/lib/ossl-modules/
+Installing file cygfile:///usr/lib/ossl-modules/legacy.dll
+Visited: 112 nodes out of 12249 while creating dependency order.
+Dependency order of packages: terminfo libncursesw10 libreadline7 libintl8 libiconv2 bash cygwin dash _autorebase alternatives base-cygwin libattr1 libgcc1 libgmp10 tzdata tzcode coreutils findutils sed base-files libbz2_1 bzip2 libffi6 libp11-kit0 p11-kit libtasn1_6 p11-kit-trust ca-certificates crypto-policies libpopt-common libpopt0 cygutils diffutils editrights liblzma5 libzstd1 zlib0 file libmpfr6 libsigsegv2 gawk libargp getent libbrotlicommon1 libbrotlidec1 libgpg-error0 libgcrypt20 libgsasl-common libcom_err2 libkrb5support0 libk5crypto3 libkrb5_3 libgssapi_krb5_2 libidn12 libntlm0 libgsasl18 libidn2_0 libnghttp2_14 libcrypt2 libstdc++6 libdb5.3 libssl1.1 libopenldap2_4_2 libsasl2_3 libopenldap2 libunistring5 publicsuffix-list-dafsa libpsl5 libssh2_1 libcurl4 libusb0 gzip xz liblz4_1 zstd tar gnupg libpcre2_8_0 grep libuchardet0 groff hostname info ipc-utils less libassuan0 libuuid1 libblkid1 libcares2 libfdisk1 libgdbm6 libnettle6 libhogweed4 libunistring2 libgnutls30 libgpgme11 libxml2 libmetalink3 libpipeline1 libsmartcols1 libssl3 login util-linux man-db mintty ncurses openssl rebase run vim-minimal wget which 
+2023/09/05 20:49:50 running: C:\Linux\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+removing /var/cache/rebase/rebase_dyn
+creating empty /var/cache/rebase/rebase_dyn
+Updating rebase information for dynamic language modules/libraries /var/cache/rebase/rebase_dyn.
+removing /var/cache/rebase/rebase_dyn_exe
+creating empty /var/cache/rebase/rebase_dyn_exe
+Updating rebase information for user-defined executables /var/cache/rebase/rebase_dyn_exe.
+removing /var/cache/rebase/rebase_pkg
+creating empty /var/cache/rebase/rebase_pkg
+Updating package information in /var/cache/rebase/rebase_pkg.
+  from /etc/setup/alternatives.lst.gz
+  from /etc/setup/base-cygwin.lst.gz
+  from /etc/setup/base-files.lst.gz
+  from /etc/setup/bash.lst.gz
+  from /etc/setup/bzip2.lst.gz
+  from /etc/setup/ca-certificates.lst.gz
+  from /etc/setup/coreutils.lst.gz
+  from /etc/setup/crypto-policies.lst.gz
+  from /etc/setup/cygutils.lst.gz
+  from /etc/setup/cygwin.lst.gz
+  from /etc/setup/dash.lst.gz
+  from /etc/setup/diffutils.lst.gz
+  from /etc/setup/editrights.lst.gz
+  from /etc/setup/file.lst.gz
+  from /etc/setup/findutils.lst.gz
+  from /etc/setup/gawk.lst.gz
+  from /etc/setup/getent.lst.gz
+  from /etc/setup/gnupg.lst.gz
+  from /etc/setup/grep.lst.gz
+  from /etc/setup/groff.lst.gz
+  from /etc/setup/gzip.lst.gz
+  from /etc/setup/hostname.lst.gz
+  from /etc/setup/info.lst.gz
+  from /etc/setup/ipc-utils.lst.gz
+  from /etc/setup/less.lst.gz
+  from /etc/setup/libargp.lst.gz
+  from /etc/setup/libassuan0.lst.gz
+  from /etc/setup/libattr1.lst.gz
+  from /etc/setup/libblkid1.lst.gz
+  from /etc/setup/libbrotlicommon1.lst.gz
+  from /etc/setup/libbrotlidec1.lst.gz
+  from /etc/setup/libbz2_1.lst.gz
+  from /etc/setup/libcares2.lst.gz
+  from /etc/setup/libcom_err2.lst.gz
+  from /etc/setup/libcrypt2.lst.gz
+  from /etc/setup/libcurl4.lst.gz
+  from /etc/setup/libdb5.3.lst.gz
+  from /etc/setup/libfdisk1.lst.gz
+  from /etc/setup/libffi6.lst.gz
+  from /etc/setup/libgcc1.lst.gz
+  from /etc/setup/libgcrypt20.lst.gz
+  from /etc/setup/libgdbm6.lst.gz
+  from /etc/setup/libgmp10.lst.gz
+  from /etc/setup/libgnutls30.lst.gz
+  from /etc/setup/libgpg-error0.lst.gz
+  from /etc/setup/libgpgme11.lst.gz
+  from /etc/setup/libgsasl-common.lst.gz
+  from /etc/setup/libgsasl18.lst.gz
+  from /etc/setup/libgssapi_krb5_2.lst.gz
+  from /etc/setup/libhogweed4.lst.gz
+  from /etc/setup/libiconv2.lst.gz
+  from /etc/setup/libidn12.lst.gz
+  from /etc/setup/libidn2_0.lst.gz
+  from /etc/setup/libintl8.lst.gz
+  from /etc/setup/libk5crypto3.lst.gz
+  from /etc/setup/libkrb5support0.lst.gz
+  from /etc/setup/libkrb5_3.lst.gz
+  from /etc/setup/liblz4_1.lst.gz
+  from /etc/setup/liblzma5.lst.gz
+  from /etc/setup/libmetalink3.lst.gz
+  from /etc/setup/libmpfr6.lst.gz
+  from /etc/setup/libncursesw10.lst.gz
+  from /etc/setup/libnettle6.lst.gz
+  from /etc/setup/libnghttp2_14.lst.gz
+  from /etc/setup/libntlm0.lst.gz
+  from /etc/setup/libopenldap2.lst.gz
+  from /etc/setup/libopenldap2_4_2.lst.gz
+  from /etc/setup/libp11-kit0.lst.gz
+  from /etc/setup/libpcre2_8_0.lst.gz
+  from /etc/setup/libpipeline1.lst.gz
+  from /etc/setup/libpopt-common.lst.gz
+  from /etc/setup/libpopt0.lst.gz
+  from /etc/setup/libpsl5.lst.gz
+  from /etc/setup/libreadline7.lst.gz
+  from /etc/setup/libsasl2_3.lst.gz
+  from /etc/setup/libsigsegv2.lst.gz
+  from /etc/setup/libsmartcols1.lst.gz
+  from /etc/setup/libssh2_1.lst.gz
+  from /etc/setup/libssl1.1.lst.gz
+  from /etc/setup/libssl3.lst.gz
+  from /etc/setup/libstdc++6.lst.gz
+  from /etc/setup/libtasn1_6.lst.gz
+  from /etc/setup/libuchardet0.lst.gz
+  from /etc/setup/libunistring2.lst.gz
+  from /etc/setup/libunistring5.lst.gz
+  from /etc/setup/libusb0.lst.gz
+  from /etc/setup/libuuid1.lst.gz
+  from /etc/setup/libxml2.lst.gz
+  from /etc/setup/libzstd1.lst.gz
+  from /etc/setup/login.lst.gz
+  from /etc/setup/man-db.lst.gz
+  from /etc/setup/mintty.lst.gz
+  from /etc/setup/ncurses.lst.gz
+  from /etc/setup/openssl.lst.gz
+  from /etc/setup/p11-kit-trust.lst.gz
+  from /etc/setup/p11-kit.lst.gz
+  from /etc/setup/publicsuffix-list-dafsa.lst.gz
+  from /etc/setup/rebase.lst.gz
+  from /etc/setup/run.lst.gz
+  from /etc/setup/sed.lst.gz
+  from /etc/setup/tar.lst.gz
+  from /etc/setup/terminfo.lst.gz
+  from /etc/setup/tzcode.lst.gz
+  from /etc/setup/tzdata.lst.gz
+  from /etc/setup/util-linux.lst.gz
+  from /etc/setup/vim-minimal.lst.gz
+  from /etc/setup/wget.lst.gz
+  from /etc/setup/which.lst.gz
+  from /etc/setup/xz.lst.gz
+  from /etc/setup/zlib0.lst.gz
+  from /etc/setup/zstd.lst.gz
+  from /etc/setup/_autorebase.lst.gz
+removing /var/cache/rebase/rebase_lst
+creating empty /var/cache/rebase/rebase_lst
+Updating rebase information for installed dynamic objects in /var/cache/rebase/rebase_lst.
+Updating rebase information for installed executables in /var/cache/rebase/rebase_exe.
+Rebasing with list /var/cache/rebase/rebase_all, built from /var/cache/rebase/rebase_dyn /var/cache/rebase/rebase_lst.
+2023/09/05 20:49:51 running: C:\Linux\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+Rebuilding info directory
+install-info: warning: no info dir entry in `/usr/share/info/gawk_api-figure1.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_api-figure2.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_api-figure3.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_array-elements.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_general-program.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_process-flow.png'
+install-info: warning: no info dir entry in `/usr/share/info/gawk_statist.jpg'
+2023/09/05 20:49:52 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2023/09/05 20:49:54 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2023/09/05 20:49:54 can't run /etc/postinstall/openssl.sh: No such file
+2023/09/05 20:49:54 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2023/09/05 20:49:55 running: C:\Linux\bin\bash.exe --norc --noprofile "/etc/postinstall/wget.sh"
+2023/09/05 20:49:55 running: C:\Linux\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+  ManDB index not available.
+Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+Desktop directory for desktop link: C:\Users\Public\Desktop
+Program directory for program link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs/Cygwin
+make_link C:\ProgramData\Microsoft\Windows\Start Menu\Programs/Cygwin/Cygwin64 Terminal.lnk, Cygwin64 Terminal, C:\Linux\bin\mintty
+make_link_2 (C:\Linux\bin\mintty, -i /Cygwin-Terminal.ico -, C:\Linux\Cygwin-Terminal.ico, C:\ProgramData\Microsoft\Windows\Start Menu\Programs/Cygwin/Cygwin64 Terminal.lnk)
+Desktop directory for desktop link: C:\Users\Public\Desktop
+make_link C:\Users\Public\Desktop/Cygwin64 Terminal.lnk, Cygwin64 Terminal, C:\Linux\bin\mintty
+make_link_2 (C:\Linux\bin\mintty, -i /Cygwin-Terminal.ico -, C:\Linux\Cygwin-Terminal.ico, C:\Users\Public\Desktop/Cygwin64 Terminal.lnk)
+2023/09/05 20:50:02 note: Installation Complete
+2023/09/05 20:50:02 Ending cygwin install
